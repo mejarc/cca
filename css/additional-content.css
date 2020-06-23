@@ -1,0 +1,87 @@
+.additional-content {
+  background-color: var(--branch-background);
+  border: 10px solid var(--home-additional-border);
+}
+
+.additional-content .card {
+  background-color: var(--card-background);
+  flex-grow: 1;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+  font-weight: normal;
+  display: block;
+  margin-left: 10px;
+  padding: 10px 15px;
+}
+.additional-content .card:first-child {
+  margin-left: 0;
+}
+.card a:link,
+.card a:visited,
+.card a:hover,
+.card a:active {
+  color: var(--text-blue);
+}
+.card a:hover {
+  text-decoration: underline;
+}
+.card header {
+  font-size: 30pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.card header,
+.card header a:link,
+.card header a:visited,
+.card header a:hover,
+.card header a:active {
+  color: var(--text-blue);
+}
+
+.card dt {
+  font-weight: bold;
+}
+.card dd {
+  margin-left: 0;
+}
+
+.card:first-of-type dt {
+  text-transform: uppercase;
+}
+
+.card dt:not(:first-child) {
+  margin-top: 0.5rem;
+}
+
+.calendar-search input,
+.calendar-search label {
+  display: block;
+}
+.calendar-search input[type="date"] {
+  display: inline-block;
+}
+.calendar-search .fa-calendar-alt {
+  color: var(--text-blue);
+  font-size: 18pt;
+  vertical-align: middle;
+  margin-left: 1px;
+}
+.calendar-search .fa-calendar-alt:hover {
+  color: var(--text-orange);
+}
+.calendar-search div {
+  margin-bottom: 0.5rem;
+}
+.calendar-search label:after {
+  content: ":";
+  display: inline-block;
+}
+.calendar-search input[type="submit"] {
+  background-color: var(--calendar-button-background);
+  border: 0;
+  color: var(--text-white);
+  font-size: 16pt;
+}
+.calendar-search input[type="submit"]:hover {
+  background-color: var(--calendar-button-highlight-background);
+}

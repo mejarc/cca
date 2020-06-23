@@ -1,0 +1,81 @@
+<nav class="flex page-nav" role="navigation">
+  <ul class="flex actions-nav">
+    <li><a href="/">Join</a></li>
+    <li><a href="/">Donate</a></li>
+    <li><a href="/">Contact</a></li>
+  </ul>
+  <ul class="flex primary-nav">
+    <li><a href="/">About</a>
+      <!-- begin dropdown menu -->
+      <ul class="dropdown">
+        <li aria-haspopup="true">About CCA
+          <!-- begin list within dropdown menu -->
+          <ul aria-label="submenu" class="submenu">
+            <li><a href="/">Our Mission</a>
+            </li>
+            <li><a href="/">History</a>
+            </li>
+            <li><a href="/">Community</a>
+            </li>
+          </ul>
+          <!-- end list within dropdown menu -->
+
+        </li>
+        <li aria-haspopup="true"><a href="/">Programs</a>
+          <ul aria-label="submenu" class="submenu">
+            <li><a href="/">Special Events</a>
+            </li>
+            <li><a href="/">Gallery</a>
+            </li>
+            <li><a href="/">Theatre</a>
+            </li>
+            <li><a href="/">Film Festival</a>
+            </li>
+            <li><a href="/">Workshops & Groups</a>
+            </li>
+            <li><a href="/">Art Talks</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="/">People</a>
+          <ul class="submenu">
+            <li><a href="/">Board Members</a>
+            </li>
+            <li><a href="/">Volunteers</a></li>
+          </ul>
+        </li>
+
+        <li><a href="/">Supporters</a>
+          <ul class="submenu">
+            <li><a href="/">Donors</a>
+            </li>
+            <li><a href="/">Sponsors</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- end dropdown menu -->
+    </li>
+    <li><a href="/">Events</a>
+      <!-- begin dropdown menu -->
+      <ul class="dropdown">
+        <li>X
+          <!-- begin list within dropdown menu -->
+          <ul class="submenu">
+            <li><a href="/">A</a>
+            </li>
+            <li><a href="/">B</a>
+            </li>
+            <li><a href="/">C</a>
+            </li>
+          </ul>
+          <!-- end list within dropdown menu -->
+
+        </li>
+      </ul>
+      <!-- end dropdown menu -->
+    </li>
+    <li><a href="/">Support</a></li>
+    <li><a href="/">Artists</a></li>
+    <li><a href="/">Members</a></li>
+  </ul>
+</nav>

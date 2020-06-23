@@ -1,0 +1,61 @@
+/* ====== Page footer ====== */
+.page-footer {
+  background-color: var(--footer-background);
+  background-image: url(../img/translucent_waves.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: space-between;
+}
+.page-footer,
+.page-footer a,
+.page-footer a:hover,
+.page-footer a:visited,
+.page-footer a:active {
+  color: var(--text-black);
+}
+
+.page-footer li {
+  list-style: none;
+}
+
+.page-footer address {
+  font-size: 14pt;
+}
+
+.page-footer .flex {
+  display: flex;
+  justify-content: flex-start;
+}
+.page-footer ul {
+  padding: 0;
+  margin: 5px 0;
+}
+.page-footer p {
+  font-size: 11pt;
+}
+.page-footer li:first-of-type {
+  margin-left: 0;
+  padding-left: 0;
+}
+.site-nav a {
+  border-right: 1px solid var(--text-black);
+  font-size: 12pt;
+  line-height: 1rem;
+  padding: 0 10px;
+}
+.site-nav li:first-of-type a {
+  padding-left: 0;
+}
+.site-nav li:last-of-type a {
+  border-right-width: 0;
+}
+
+/* Font Awesome icons */
+.page-footer .fab,
+.page-footer .fas {
+  color: var(--text-black);
+  display: block;
+  padding: 5px 5px 5px 0;
+  height: 1rem;
+  width: 1rem;
+}

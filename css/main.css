@@ -1,0 +1,289 @@
+:root {
+  /* backgrounds */
+  --header-background: white;
+  --branch-background: black;
+  --branch-highlight-background: #06c;
+  --calendar-button-background: #06c;
+  --calendar-button-highlight-background: #f60;
+  --card-background: white;
+  --footer-background: white;
+  --home-background: #06c;
+  --icon-background: white;
+  --nav-background: white;
+  --nav-highlight-background: #06c;
+
+  /* text colors */
+  --text-yellow: #fc0;
+  --text-orange: #f60;
+  --text-blue: #06c;
+  --text-red: #f30;
+  --text-black: #000;
+  --text-white: white;
+
+  /* borders */
+  --home-additional-border: black;
+  --home-button-border: #fc0;
+  --home-main-border: #06c;
+
+}
+
+/* ==========================================================================
+   Base styles.
+   ========================================================================== */
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  /* background: #b3d4fc; */
+  text-shadow: none;
+}
+
+::selection {
+  /* background: #b3d4fc; */
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Custom styles for this site. "Mobile first" layout for screen sizes < 376 px
+   ========================================================================== */
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide content visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide content visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+ Visual theme
+  ========================================================================== */
+  html {
+    color: var(--text-black);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    line-height: 1.4;
+  }
+a {
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
+/* ==========================================================================
+   Responsive design.
+   ========================================================================== */
+/* Default layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  gap: 5px 10px;
+  grid-template-areas: "h" "n" "m" "f";
+}
+
+/* Crazy styles */
+/* .branch {
+  background: magenta;
+} */
+
+/* main {
+  background: green;
+} */
+/* nav {
+  background: lime;
+} */
+/* footer {
+  background: lightsalmon;
+} 
+.primary-nav {
+  background: orangered;
+}
+.actions-nav { 
+  background: blueviolet;
+}
+.dropdown {
+  background: red;
+}
+*/
+/* Mobile-only */
+@media only screen and (max-width: 375px) {
+  html {
+    background: var(--text-blue);
+  }
+}
+/* Tablet and wider */
+@media only screen and (min-width: 376px) {
+  /* html {
+    background: var(--text-orange);
+  } */
+  
+}
+/* Desktop styles */
+@media only screen and (min-width: 769px) {
+  /* html {
+    background: var(--text-yellow);
+  } */
+}
+
+
+/* Desktop */
+@media only screen and (min-width: 769px) {
+  /* html {
+    background: var(--text-yellow);
+  } */
+
+.container {
+  grid-template-rows: 128px 1fr 1fr 1fr;
+}
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .page-nav {
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: calc(100% - 392px);
+  }
+  .actions-nav {
+    justify-content: flex-end;
+  }
+  
+  .page-footer-info {
+    text-align: right;
+    width: 50%;
+  }
+  
+  .primary-nav {
+    justify-content: flex-end;
+  }
+
+}

@@ -1,0 +1,136 @@
+/* ====== Home page =====*/
+
+.branch {
+  font-size: 24pt;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: var(--branch-background);
+}
+.branch:hover {
+  background-color: var(--branch-highlight-background);
+}
+
+.branch .info {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+.branch .info.flex {
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.branch .button-holder {
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
+.branch .button:link,
+.branch .button:visited,
+.branch .button:hover,
+.branch .button:active {
+  border: 2px solid var(--home-button-border);
+  color: var(--text-yellow);
+  line-height: 1.15rem;
+  padding: 0.25rem;
+  width: max-content;
+}
+
+.branch h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-size: 49px;
+  font-weight: 900;
+  margin: 10px 0 0 0;
+  text-transform: uppercase;
+}
+
+.branch h2 {
+  font-style: italic;
+  font-weight: normal;
+  margin: 5px 0;
+}
+.branch img {
+  object-fit: contain;
+  width: 550px;
+}
+.branch p {
+  line-height: 1rem;
+  margin: 0;
+}
+
+.gallery,
+.gallery a:link,
+.gallery a:visited,
+.gallery a:hover,
+.gallery a:active {
+  color: var(--text-yellow);
+}
+.theatre,
+.theatre a:link,
+.theatre a:visited,
+.theatre a:hover,
+.theatre a:active {
+  color: var(--text-red);
+}
+
+.film,
+.film a:link,
+.film a:visited,
+.film a:hover,
+.film a:active {
+  color: var(--text-blue);
+}
+.learn,
+.learn a:link,
+.learn a:visited,
+.learn a:hover,
+.learn a:active {
+  color: var(--text-orange);
+}
+.events,
+.events,
+.events a:link,
+.events a:visited,
+.events a:hover,
+.events a:active {
+  color: var(--text-orange);
+}
+
+.home {
+  background-color: var(--home-background);
+  border: 10px solid var(--home-main-border);
+  row-gap: 10px;
+}
+
+/* Mobile layout */
+@media only screen and (max-width: 767px) {
+  .home {
+    grid-template-rows: auto;
+  }
+}
+
+/* Desktop and tablet */
+@media only screen and (min-width: 768px) {
+  .home {
+    box-sizing: border-box;
+    grid-template-rows: repeat(4, 238px);
+  }
+  .branch {
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .branch .info {
+    flex: 1 1 auto;
+  }
+
+  .branch:nth-of-type(2n) .info {
+    margin-right: 10px;
+    order: 1;
+  }
+  .branch:nth-of-type(2n) img {
+    order: 2;
+  }
+    .branch:nth-of-type(2n) .button-holder {
+justify-content: flex-start;
+    }
+}

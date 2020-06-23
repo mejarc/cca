@@ -1,0 +1,22 @@
+<!-- footer goes here -->
+<footer class="flex page-footer">
+  <nav class="footer-nav">
+    <ul class="flex">
+      <li><a class="fab fa-facebook" href="/"><span class="sr-only">Facebook</span></a></li>
+      <li><a class="fab fa-instagram" href="/"><span class="sr-only">Instagram</span></a></li>
+      <li><a class="fab fa-tumblr" href="/"><span class="sr-only">Tumblr</span></a></li>
+      <li><a class="fas fa-envelope" href="/"><span class="sr-only">Email</span></a></li>
+    </ul>
+    <ul class="flex site-nav">
+      <li><a href="/">Accessibility</a></li>
+      <li><a href="/">Privacy</a></li>
+      <li><a href="/">Sitemap</a></li>
+      <li><a href="/">Terms of use</a></li>
+    </ul>
+  </nav>
+  <div class="page-footer-info">
+   <p>Copyright &copy;2020 Allied Arts Association of Cambria - Cambria Center for the Arts, All rights reserved.</p> <p>
+    <address>
+      1350 Main St. Cambria, CA 93428 <a href="tel:+18059278190">(805) 927-8190</a></address></p>
+  </div>
+</footer>

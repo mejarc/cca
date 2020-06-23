@@ -1,0 +1,57 @@
+<div class="container home">
+  <section class="flex branch gallery">
+    <img src="./img/branch-fpo.jpg" height="238" />
+    <div class="flex info">
+      <h1><a href="/">Gallery</a></h1>
+      <h2><a href="/">"Montana de Oro"</a></h2>
+      <p>April 2 - 26, 2021</p>
+      <div class="flex button-holder">
+        <a class="button" href="/">Call for Artists</a>
+      </div>
+    </div>
+  </section>
+  <section class="flex branch theatre">
+    <img
+      alt="CCA Theatre production"
+      sizes="(max-width: 767px) 119px, 225px"
+      src="./img/branch-fpo.jpg"
+    />
+    <div class="flex info">
+      <h1><a href="/">Theatre</a></h1>
+      <h2><a href="/">"Cambria the Musical"</a></h2>
+      <p>February 4 - 7, 2021</p>
+      <div class="flex button-holder">
+        <a class="button" href="/">Auditions</a>
+      </div>
+    </div>
+  </section>
+  <section class="flex branch film">
+    <img
+      alt="CCA Filmfest"
+      sizes="(max-width: 767px) 119px, 225px"
+      src="./img/branch-fpo.jpg"
+    />
+    <div class="flex info">
+      <h1><a href="/">Filmfest</a></h1>
+      <h2><a href="/">"Cambria the Musical"</a></h2>
+      <p>February 4 - 7, 2021</p>
+      <div class="flex button-holder">
+        <a class="button" href="/">Submissions</a>
+      </div>
+    </div>
+    </section>
+  <section class="flex branch learn">
+    <img
+      alt="CCA Learn"
+      sizes="(max-width: 767px) 119px, 225px"
+      src="./img/branch-fpo.jpg"
+    />
+    <div class="flex info">
+      <h1><a href="/">Learn</a></h1>
+      <p>Workshops, Art Talks, Groups</p>
+      <div class="flex button-holder">
+        <a class="button" href="/">Instructors</a>
+      </div>
+    </div>
+  </section>
+</div>
