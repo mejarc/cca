@@ -52,7 +52,7 @@
     <form class="calendar-search">
       <div>
         <label for="start">Start on</label>
-        <input id="start" type="date" value="04/12/2020" /><i class="far fa-calendar-alt"></i>
+        <input id="start" placeholder="yyyy-mm-dd" type="date" value="04/12/2020" /><i class="far fa-calendar-alt"></i>
       </div>
       <div>
         <label for="eventType">Type of event</label>

@@ -6,9 +6,9 @@
   font-weight: bold;
   background-color: var(--branch-background);
 }
-.branch:hover {
+/* .branch:hover {
   background-color: var(--branch-highlight-background);
-}
+} */
 
 .branch .info {
   margin-left: 10px;
