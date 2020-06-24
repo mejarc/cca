@@ -199,6 +199,9 @@ a {
 address {
   font-style: normal;
 }
+input[type=submit] {
+  padding: .25rem .5rem;
+}
 /* ==========================================================================
    Responsive design.
    ========================================================================== */
@@ -258,10 +261,6 @@ address {
 
 /* Desktop */
 @media only screen and (min-width: 769px) {
-  /* html {
-    background: var(--text-yellow);
-  } */
-
 .container {
   grid-template-rows: 128px 1fr 1fr 1fr;
 }

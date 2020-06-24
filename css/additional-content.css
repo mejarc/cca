@@ -1,6 +1,8 @@
 .additional-content {
   background-color: var(--branch-background);
   border: 10px solid var(--home-additional-border);
+  display: flex;
+  gap: 10px;
 }
 
 .additional-content .card {
@@ -10,12 +12,9 @@
   font-size: 12pt;
   font-weight: normal;
   display: block;
-  margin-left: 10px;
   padding: 10px 15px;
 }
-.additional-content .card:first-child {
-  margin-left: 0;
-}
+
 .card a:link,
 .card a:visited,
 .card a:hover,
@@ -84,4 +83,14 @@
 }
 .calendar-search input[type="submit"]:hover {
   background-color: var(--calendar-button-highlight-background);
+}
+
+/* Mobile and table layout */
+@media only screen and (max-width: 1022px) {
+  .additional-content {
+    flex-direction: column;
+  }
+  /* .additional-content .card {
+    border-bottom: 10px solid var(--home-additional-border);
+  } */
 }

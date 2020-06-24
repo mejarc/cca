@@ -48,7 +48,7 @@
     </dl>
   </section>
   <section class="branch card">
-    <header><a href="/">Calendar</a></header>
+    <header>Calendar</header>
     <form class="calendar-search">
       <div>
         <label for="start">Start on</label>
