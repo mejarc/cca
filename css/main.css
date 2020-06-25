@@ -208,10 +208,8 @@ input[type=submit] {
 /* Default layout */
 .container {
   display: grid;
-  grid-template-columns: 1fr;
-  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  grid-template-columns: minmax(0, 1fr);
   gap: 5px 10px;
-  grid-template-areas: "h" "n" "m" "f";
 }
 
 /* Crazy styles */

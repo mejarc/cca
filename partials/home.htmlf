@@ -1,6 +1,9 @@
 <div class="container home">
   <section class="flex branch gallery">
-    <img src="./img/branch-fpo.jpg" height="238" />
+    <img 
+    alt="Gallery"
+    sizes="(max-width: 767px) 119px, 225px"
+    src="./img/fpo-gallery.jpg" />
     <div class="flex info">
       <h1><a href="/">Gallery</a></h1>
       <h2><a href="/">"Montana de Oro"</a></h2>
@@ -14,7 +17,7 @@
     <img
       alt="CCA Theatre production"
       sizes="(max-width: 767px) 119px, 225px"
-      src="./img/branch-fpo.jpg"
+      src="./img/fpo-theatre.jpg"
     />
     <div class="flex info">
       <h1><a href="/">Theatre</a></h1>
@@ -29,7 +32,7 @@
     <img
       alt="CCA Filmfest"
       sizes="(max-width: 767px) 119px, 225px"
-      src="./img/branch-fpo.jpg"
+      src="./img/fpo-filmfest.jpg"
     />
     <div class="flex info">
       <h1><a href="/">Filmfest</a></h1>
@@ -44,7 +47,7 @@
     <img
       alt="CCA Learn"
       sizes="(max-width: 767px) 119px, 225px"
-      src="./img/branch-fpo.jpg"
+      src="./img/fpo-learn.jpg"
     />
     <div class="flex info">
       <h1><a href="/">Learn</a></h1>

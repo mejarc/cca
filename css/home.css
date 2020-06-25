@@ -51,6 +51,7 @@
 }
 .branch img {
   object-fit: contain;
+  max-width: 100%;
   width: 550px;
 }
 .branch p {
@@ -117,10 +118,10 @@
   }
   .branch {
     display: flex;
-    /* justify-content: space-between; */
   }
   .branch .info {
     flex: 1 1 auto;
+    min-width: 0;
   }
 
   .branch:nth-of-type(2n) .info {
@@ -130,7 +131,7 @@
   .branch:nth-of-type(2n) img {
     order: 2;
   }
-    .branch:nth-of-type(2n) .button-holder {
-justify-content: flex-start;
-    }
+  .branch:nth-of-type(2n) .button-holder {
+    justify-content: flex-start;
+  }
 }
