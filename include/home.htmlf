@@ -36,7 +36,7 @@
     />
     <div class="flex info">
       <h1><a href="/">Filmfest</a></h1>
-      <h2><a href="/">"Cambria the Musical"</a></h2>
+      <h2><a href="/">"Cambria Film Festival"</a></h2>
       <p>February 4 - 7, 2021</p>
       <div class="flex button-holder">
         <a class="button" href="/">Submissions</a>

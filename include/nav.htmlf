@@ -1,9 +1,12 @@
 <nav class="flex page-nav" role="navigation">
+  
+
   <ul class="flex actions-nav">
     <li><a href="/">Join</a></li>
     <li><a href="/">Donate</a></li>
     <li><a href="/">Contact</a></li>
   </ul>
+  <i class="fas fa-bars"></i>
   <ul class="flex primary-nav">
     <li>
       <a href="/">About</a>
@@ -50,20 +53,6 @@
     </li>
     <li>
       <a href="/">Events</a>
-      <!-- begin dropdown menu -->
-      <ul class="dropdown">
-        <li>
-          X
-          <!-- begin list within dropdown menu -->
-          <ul class="submenu">
-            <li><a href="/">A</a></li>
-            <li><a href="/">B</a></li>
-            <li><a href="/">C</a></li>
-          </ul>
-          <!-- end list within dropdown menu -->
-        </li>
-      </ul>
-      <!-- end dropdown menu -->
     </li>
     <li><a href="/">Support</a></li>
     <li>

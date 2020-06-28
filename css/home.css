@@ -55,8 +55,12 @@
   width: 550px;
 }
 .branch p {
-  line-height: 1rem;
   margin: 0;
+}
+.branch h1,
+.branch h2,
+.branch p {
+  line-height: 1em;
 }
 
 .gallery,
