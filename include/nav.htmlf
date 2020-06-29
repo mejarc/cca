@@ -1,5 +1,5 @@
 <nav class="flex page-nav" role="navigation">
-  
+
 
   <ul class="flex actions-nav">
     <li><a href="/">Join</a></li>
@@ -8,7 +8,7 @@
   </ul>
   <i class="fas fa-bars"></i>
   <ul class="flex primary-nav">
-    <li>
+    <li aria-haspopup="true">
       <a href="/">About</a>
       <!-- begin dropdown menu -->
       <ul class="dropdown">
@@ -51,11 +51,11 @@
       </ul>
       <!-- end dropdown menu -->
     </li>
-    <li>
+    <li aria-haspopup="true">
       <a href="/">Events</a>
     </li>
-    <li><a href="/">Support</a></li>
-    <li>
+    <li aria-haspopup="true"><a href="/">Support</a></li>
+    <li aria-haspopup="true">
       <a href="/">Artists</a>
       <!-- begin dropdown menu -->
       <ul class="dropdown">
@@ -64,7 +64,7 @@
           <!-- begin list within dropdown menu -->
           <ul aria-label="submenu" class="submenu">
             <li><a href="/">Profiles</a></li>
-            <li><a href="/">Exhibits</a></li>
+            <li><a href="/">Exhibit</a></li>
             <li><a href="/">Teach</a></li>
             <li><a href="/">Learn</a></li>
           </ul>
@@ -93,6 +93,10 @@
         </li>
       </ul>
     </li>
-    <li><a href="/">Members</a></li>
+    <li aria-haspopup="true"><a href="/">Members</a>
+      <!-- begin list within dropdown menu -->
+      <ul aria-label="submenu" class="submenu">
+      </ul> <!-- end list within dropdown menu -->
+    </li>
   </ul>
 </nav>

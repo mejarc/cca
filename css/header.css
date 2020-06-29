@@ -9,41 +9,6 @@
 .page-header img {
   max-width: 100vw;
 }
-.actions-nav {
-  font-size: 17pt;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.actions-nav a,
-.actions-nav a:hover,
-.actions-nav a:visited,
-.actions-nav a:active {
-  color: var(--text-orange);
-}
-
-.primary-nav a,
-.primary-nav a:hover,
-.primary-nav a:visited,
-.primary-nav a:active {
-  color: var(--text-black);
-}
-
-.primary-nav .dropdown {
-  background-color: var(--nav-background);
-  font-weight: bold;
-  padding-left: 0;
-  z-index: 3;
-}
-.primary-nav .dropdown a:hover {
-  background-color: var(--nav-highlight-background);
-  color: var(--text-white);
-}
-.primary-nav .submenu {
-  font-weight: normal;
-  padding: 0;
-  width: 535px;
-}
 
 /* ====== Header dropdown menus ======== */
 .page-header li {
@@ -56,14 +21,14 @@
   cursor: pointer;
 }
 .dropdown {
-  visibility: hidden;
+  /* visibility: hidden;
   opacity: 0;
   position: absolute;
   transition: all 0.5s ease;
   margin-top: 1px;
   padding: 0;
   display: none;
-  transition: 0.2s 1s;
+  transition: 0.2s 1s; */
 }
 li:hover .dropdown {
   transition-delay: 0s;
@@ -85,50 +50,9 @@ li .dropdown:hover {
 .submenu li a {
   padding-left: 30px;
 }
-/* "Hamburger" menu */
-.page-nav .fa-bars {
-  color: var(--text-black);
-  cursor: pointer;
-  margin: 10px;
-  float: right;
-}
 /* Mobile only */
 @media only screen and (max-width: 375px) {
-  .actions-nav,
-  .primary-nav {
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.5s ease;
-    display: none;
-  }
-}
-/* Tablet and mobile */
-@media only screen and (max-width: 768px) and (min-width: 376px) {
-  .actions-nav {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 10px;
-  }
-  .primary-nav {
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.5s ease;
-    display: none;
-  }
-}
-
-/* Desktop styles */
-@media only screen and (min-width: 769px) {
-  .page-nav .fa-bars {
-    display: none;
-  }
-  .actions-nav,
-  .primary-nav {
-    visibility: visible;
-    opacity: 1;
-    display: flex;
-  }
-  .primary-nav .submenu {
-    width: 535px;
+  .page-header li {
+    padding: 0;
   }
 }

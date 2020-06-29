@@ -10,6 +10,7 @@ gulp.task('css', function() {
   ['./css/normalize.css', 
   './css/main.css',
   './css/header.css',
+  './css/nav.css',
   './css/footer.css',
   './css/home.css',
   './css/additional-content.css', 

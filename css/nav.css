@@ -1,0 +1,112 @@
+.actions-nav {
+  font-size: 17pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.actions-nav a,
+.actions-nav a:hover,
+.actions-nav a:visited,
+.actions-nav a:active {
+  color: var(--text-orange);
+}
+
+.primary-nav a,
+.primary-nav a:hover,
+.primary-nav a:visited,
+.primary-nav a:active {
+  color: var(--text-black);
+}
+
+.primary-nav .dropdown {
+  background-color: var(--nav-background);
+  font-weight: bold;
+  padding-left: 0;
+  z-index: 3;
+}
+.primary-nav .dropdown a:hover {
+  background-color: var(--nav-highlight-background);
+  color: var(--text-white);
+}
+.primary-nav .submenu {
+  font-weight: normal;
+  padding: 0;
+  width: 535px;
+}
+
+/* "Hamburger" menu */
+.page-nav .fa-bars {
+  color: var(--text-black);
+  cursor: pointer;
+  margin: 10px;
+  float: right;
+}
+/* Mobile only */
+@media only screen and (max-width: 375px) {
+  /* .actions-nav,
+  .primary-nav {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+    display: none;
+  } */
+  .page-nav {
+    border: 1px solid var(--nav-border);
+    margin: 0 auto;
+    padding: 20px 0;
+    width: calc(100vw - 20px);
+  }
+  .page-nav li {
+    text-indent: 0;
+  }
+  .primary-nav .dropdown > li:first-of-type {
+    text-indent: 20px;
+  }
+  .actions-nav,
+  .primary-nav {
+    font-weight: bold;
+    padding-left: 0;
+  }
+  .actions-nav a,
+  .primary-nav a {
+    padding: 0 20px;
+  }
+  .primary-nav li > li {
+    font-weight: normal;
+  }
+
+  .primary-nav .submenu {
+    width: 100vw;
+  }
+  
+}
+/* Tablet and mobile */
+@media only screen and (max-width: 768px) and (min-width: 376px) {
+  .actions-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+  /* .primary-nav {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+    display: none;
+  } */
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 769px) {
+  .page-nav .fa-bars {
+    display: none;
+  }
+  .actions-nav,
+  .primary-nav {
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+  }
+  .primary-nav .submenu {
+    width: 535px;
+  }
+}
