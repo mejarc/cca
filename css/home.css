@@ -50,9 +50,8 @@
   margin: 5px 0;
 }
 .branch img {
-  object-fit: contain;
-  max-width: 100%;
-  width: 550px;
+  height: auto;
+  width: 100%;
 }
 .branch p {
   margin: 0;
@@ -118,13 +117,13 @@
 @media only screen and (min-width: 768px) {
   .home {
     box-sizing: border-box;
-    grid-template-rows: repeat(4, 238px);
+    grid-template-rows: repeat(4, minmax(238px, auto));
   }
   .branch {
     display: flex;
   }
   .branch .info {
-    flex: 1 1 auto;
+    flex: 1 0.5 50%;
     min-width: 0;
   }
 
