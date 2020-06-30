@@ -20,19 +20,18 @@
 .page-header a:hover {
   cursor: pointer;
 }
+
 .dropdown {
-  /* visibility: hidden;
+  visibility: hidden;
   opacity: 0;
   position: absolute;
   transition: all 0.5s ease;
   margin-top: 1px;
   padding: 0;
   display: none;
-  transition: 0.2s 1s; */
+  transition: all 0.5s ease;
 }
-li:hover .dropdown {
-  transition-delay: 0s;
-}
+
 li:hover .dropdown,
 li .dropdown:hover {
   visibility: visible;

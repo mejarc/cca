@@ -145,5 +145,6 @@
   }
   .branch:nth-of-type(2n) .button-holder {
     justify-content: flex-start;
+    align-self: flex-end;
   }
 }

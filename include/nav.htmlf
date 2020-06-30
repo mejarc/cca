@@ -52,7 +52,9 @@
     <li aria-haspopup="true">
       <a href="/">Events<i class="fas fa-angle-right"></i></a>
     </li>
-    <li aria-haspopup="true"><a href="/">Support<i class="fas fa-angle-right"></i></a></li>
+    <li aria-haspopup="true">
+      <a href="/">Support<i class="fas fa-angle-right"></i></a>
+    </li>
     <li aria-haspopup="true">
       <a href="/">Artists<i class="fas fa-angle-right"></i></a>
       <!-- begin dropdown menu -->
@@ -85,16 +87,16 @@
             <li><a href="/">Profiles</a></li>
             <li><a href="/">Submit to the Festival</a></li>
             <li><a href="/">Teach</a></li>
-
           </ul>
           <!-- end list within dropdown menu -->
         </li>
       </ul>
     </li>
-    <li aria-haspopup="true"><a href="/">Members<i class="fas fa-angle-right"></i></a>
-      <!-- begin list within dropdown menu -->
-      <ul aria-label="submenu" class="submenu">
-      </ul> <!-- end list within dropdown menu -->
+    <li aria-haspopup="true">
+      <a href="/">Members<i class="fas fa-angle-right"></i></a>
+      <!-- begin dropdown menu -->
+      <ul class="dropdown"></ul>
+      <!-- end dropdown menu -->
     </li>
   </ul>
 </nav>
