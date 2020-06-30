@@ -8,8 +8,7 @@
 .actions-nav a:hover,
 .actions-nav a:visited,
 .actions-nav a:active {
-  color: var(--text-orange);
-}
+  color: var(--text-orange);}
 
 .primary-nav a,
 .primary-nav a:hover,
@@ -106,6 +105,15 @@
     opacity: 1;
     display: flex;
   }
+  .primary-nav {
+    justify-content: space-evenly;
+  }
+  .primary-nav > li {
+    width: 10rem;
+  }
+  /* .page-nav i[class~="angle"] {
+    display: none;
+  } */
   .primary-nav .submenu {
     width: 535px;
   }

@@ -1,6 +1,4 @@
 <nav class="flex page-nav" role="navigation">
-
-
   <ul class="flex actions-nav">
     <li><a href="/">Join</a></li>
     <li><a href="/">Donate</a></li>
@@ -9,11 +7,11 @@
   <i class="fas fa-bars"></i>
   <ul class="flex primary-nav">
     <li aria-haspopup="true">
-      <a href="/">About</a>
+      <a href="/">About<i class="fas fa-angle-right"></i></a>
       <!-- begin dropdown menu -->
       <ul class="dropdown">
         <li aria-haspopup="true">
-          About CCA
+          About CCA<i class="fas fa-angle-right"></i>
           <!-- begin list within dropdown menu -->
           <ul aria-label="submenu" class="submenu">
             <li><a href="/">Our Mission</a></li>
@@ -23,7 +21,7 @@
           <!-- end list within dropdown menu -->
         </li>
         <li aria-haspopup="true">
-          <a href="/">Programs</a>
+          <a href="/">Programs<i class="fas fa-angle-right"></i></a>
           <ul aria-label="submenu" class="submenu">
             <li><a href="/">Special Events</a></li>
             <li><a href="/">Gallery</a></li>
@@ -33,16 +31,16 @@
             <li><a href="/">Art Talks</a></li>
           </ul>
         </li>
-        <li>
-          <a href="/">People</a>
-          <ul class="submenu">
+        <li aria-haspopup="true">
+          <a href="/">People<i class="fas fa-angle-right"></i></a>
+          <ul aria-label="submenu" class="submenu">
             <li><a href="/">Board Members</a></li>
             <li><a href="/">Volunteers</a></li>
           </ul>
         </li>
 
         <li>
-          <a href="/">Supporters</a>
+          <a href="/">Supporters<i class="fas fa-angle-right"></i></a>
           <ul class="submenu">
             <li><a href="/">Donors</a></li>
             <li><a href="/">Sponsors</a></li>
@@ -52,15 +50,15 @@
       <!-- end dropdown menu -->
     </li>
     <li aria-haspopup="true">
-      <a href="/">Events</a>
+      <a href="/">Events<i class="fas fa-angle-right"></i></a>
     </li>
-    <li aria-haspopup="true"><a href="/">Support</a></li>
+    <li aria-haspopup="true"><a href="/">Support<i class="fas fa-angle-right"></i></a></li>
     <li aria-haspopup="true">
-      <a href="/">Artists</a>
+      <a href="/">Artists<i class="fas fa-angle-right"></i></a>
       <!-- begin dropdown menu -->
       <ul class="dropdown">
         <li aria-haspopup="true">
-          Visual Artists
+          Visual Artists<i class="fas fa-angle-right"></i>
           <!-- begin list within dropdown menu -->
           <ul aria-label="submenu" class="submenu">
             <li><a href="/">Profiles</a></li>
@@ -71,7 +69,7 @@
           <!-- end list within dropdown menu -->
         </li>
         <li aria-haspopup="true">
-          <a href="/">Actor/Performer</a>
+          <a href="/">Actor/Performer<i class="fas fa-angle-right"></i></a>
           <!-- begin list within dropdown menu -->
           <ul aria-label="submenu" class="submenu">
             <li><a href="/">Profiles</a></li>
@@ -81,7 +79,7 @@
           <!-- end list within dropdown menu -->
         </li>
         <li aria-haspopup="true">
-          <a href="/">Film Producer</a>
+          <a href="/">Film Producer<i class="fas fa-angle-right"></i></a>
           <!-- begin list within dropdown menu -->
           <ul aria-label="submenu" class="submenu">
             <li><a href="/">Profiles</a></li>
@@ -93,7 +91,7 @@
         </li>
       </ul>
     </li>
-    <li aria-haspopup="true"><a href="/">Members</a>
+    <li aria-haspopup="true"><a href="/">Members<i class="fas fa-angle-right"></i></a>
       <!-- begin list within dropdown menu -->
       <ul aria-label="submenu" class="submenu">
       </ul> <!-- end list within dropdown menu -->
