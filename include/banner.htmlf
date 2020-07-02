@@ -1,1 +1,18 @@
- <div class="banner" role="banner">Banner</div>
+<div class="banner flex" role="banner">
+  <img src="http://cambriacenterforthearts.org/wp-content/uploads/2020/06/CCA-Rainbow-only-1.jpg" alt="" width="277"
+    height="154">
+  <div>
+    <p style="font-weight: bold; text-align: center">
+      Cambria Center for the Arts is committed to our community
+      <br>
+      For information about our COVID-19 Response <a href="http://cambriacenterforthearts.org/covid-19-response/">CLICK
+        HERE</a><br>
+      <em>Together We Shine Through</em></p>
+    <p>
+      As with many other businesses being financially impacted by this situation, CCA has lost revenue because of the
+      cancellations and closures. We would appreciate any special donations that you would be willing to provide, and
+      thank you for your dedication to the arts in Cambria. <a href="https://form.jotform.com/200760397483157"
+        target="_blank" rel="noopener noreferrer">PLEASE DONATE NOW</a>
+    </p>
+  </div>
+</div>

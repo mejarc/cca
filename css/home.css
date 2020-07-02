@@ -1,14 +1,14 @@
 /* ====== Home page =====*/
-
 .branch {
   font-size: 24pt;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   background-color: var(--branch-background);
 }
-/* .branch:hover {
+
+.branch:hover {
   background-color: var(--branch-highlight-background);
-} */
+}
 
 .branch .info {
   margin-left: 10px;
@@ -108,7 +108,9 @@
   border: 10px solid var(--home-main-border);
   row-gap: 10px;
 }
-
+.home .banner img {
+  margin-right: 10px;
+}
 /* Mobile layout */
 @media only screen and (max-width: 767px) {
   .home {

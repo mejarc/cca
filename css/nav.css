@@ -60,11 +60,13 @@
   
   .page-nav i[class*="times"],
   .page-nav li i[class*="angle"] {
+    cursor: pointer;
     position: absolute;
     right: 10px;
     top: 0.1rem;
   }
   .page-nav i[class*="times"] {
+    cursor: pointer;
     top: 10px;
   }
   .page-nav li {
@@ -121,6 +123,7 @@
   }
   .primary-nav {
     justify-content: space-between;
+    margin-top: 0;
   }
   
   .page-nav i[class*="angle"] {

@@ -1,6 +1,7 @@
 :root {
   /* backgrounds */
   --header-background: white;
+  --banner-background: black;
   --branch-background: black;
   --branch-highlight-background: #06c;
   --calendar-button-background: #06c;
