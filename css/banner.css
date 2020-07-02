@@ -1,11 +1,11 @@
 .banner {
   background-color: var(--banner-background);
-  color: var(--text-yellow);
+  color: var(--text-black);
   padding: 10px;
 }
 .banner a:link,
 .banner a:visited,
 .banner a:hover,
 .banner a:active {
-  color: var(--text-orange);
+  color: var(--text-blue);
 }

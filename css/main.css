@@ -1,7 +1,7 @@
 :root {
   /* backgrounds */
   --header-background: white;
-  --banner-background: black;
+  --banner-background: white;
   --branch-background: black;
   --branch-highlight-background: #06c;
   --calendar-button-background: #06c;
@@ -26,7 +26,6 @@
   --home-additional-border: black;
   --home-button-border: #fc0;
   --home-main-border: #06c;
-  --nav-border: #06c;
 
 }
 
