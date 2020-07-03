@@ -1,37 +1,46 @@
 let pageNav = document.querySelector(".page-nav");
+// icons that only show in mobile view
+// let pageNavBars = document.querySelectorAll('.page-nav .fa-bars')[0];
+let pageNavCloser = document.getElementById("pageNavCloser");
+
 let actionsNav = document.querySelector(".actions-nav");
 let primaryNav = document.querySelector(".primary-nav");
-let primaryBars = document.querySelectorAll(".page-nav .fa-bars")[1];
-let times = document.querySelector(".page-nav .fa-times");
+
+// icons that only show in mobile and tablet views
+// let primaryBars = document.querySelectorAll('.page-nav .fa-bars')[1];
+let primaryCloser = document.getElementById("primaryNavCloser");
 let dropdownAngle = document.querySelectorAll(".page-nav .fa-angle-right");
 
 const toggleNav = (target) => {
-  target.style.display = target.style.display === "none" ? "" : "block";
+  target.classList.toggle('visible');
 };
 
 const switchIcon = (iconClass, newIconClass) => {
   let currentIcon = event.srcElement;
-  currentIcon.classList.remove(iconClass);
-  currentIcon.classList.add(newIconClass);
+  currentIcon.classList.replace(iconClass, newIconClass);
 };
 
-primaryBars.addEventListener("click", () => {
+primaryNavCloser.addEventListener("click", () => {
   toggleNav(primaryNav);
+  primaryNavCloser.classList.toggle('fa-times');
+});
+
+pageNavCloser.addEventListener("click", () => {
+  toggleNav(pageNav);
   switchIcon("fa-bars", "fa-times");
 });
 
-if (times) {
-  times.addEventListener('click', () => {
-    toggleNav(primaryNav);
-    switchIcon('fa-times', 'fa-bars');
-  });
-}
 for (let angle of dropdownAngle) {
+  let submenu = angle.parentElement.querySelector('.submenu');
+  console.log(submenu);
+
   angle.addEventListener("click", () => {
     if (angle.classList.contains("fa-angle-right")) {
       switchIcon("fa-angle-right", "fa-angle-down");
     } else {
       switchIcon("fa-angle-down", "fa-angle-right");
     }
+    submenu.classList.toggle('visible');
   });
+
 }

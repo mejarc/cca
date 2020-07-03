@@ -1,16 +1,16 @@
 <nav class="flex page-nav" role="navigation">
-  <i class="fas fa-bars"></i>
+  <i class="fas fa-bars" id="pageNavCloser"></i>
   <ul class="flex actions-nav">
     <li><a href="/">Join</a></li>
     <li><a href="/">Donate</a></li>
     <li><a href="/">Contact</a></li>
   </ul>
-  <i class="fas fa-bars"></i>
+  <i class="fas fa-bars" id="primaryNavCloser"></i>
   <ul class="flex primary-nav">
     <li aria-haspopup="true">
       About<i class="fas fa-angle-right"></i>
       <!-- begin dropdown menu -->
-      <ul class="dropdown">
+      <ul class="dropdown submenu">
         <li aria-haspopup="true">
           About CCA<i class="fas fa-angle-right fa-angle-down"></i>
           <!-- begin list within dropdown menu -->
@@ -59,7 +59,7 @@
     <li aria-haspopup="true">
       Artists<i class="fas fa-angle-right"></i>
       <!-- begin dropdown menu -->
-      <ul class="dropdown">
+      <ul class="dropdown submenu">
         <li aria-haspopup="true">
           Visual Artists<i class="fas fa-angle-right"></i>
           <!-- begin list within dropdown menu -->
@@ -96,7 +96,7 @@
     <li aria-haspopup="true">
       Members<i class="fas fa-angle-right"></i>
       <!-- begin dropdown menu -->
-      <ul class="dropdown"></ul>
+      <ul class="dropdown submenu"></ul>
       <!-- end dropdown menu -->
     </li>
   </ul>
