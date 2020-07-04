@@ -3,6 +3,7 @@
 .page-header {
   background-color: var(--header-background);
   background-image: url(../img/translucent_waves.png);
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -53,5 +54,11 @@ li .dropdown:hover {
 @media only screen and (max-width: 375px) {
   .page-header li {
     padding: 0;
+  }
+}
+/* Tablet */
+@media only screen and (max-width: 768px) and (min-width: 376px) {
+  #logo {
+    float: left;
   }
 }
