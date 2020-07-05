@@ -1,105 +1,107 @@
 <nav class="flex page-nav" role="navigation">
-  <i class="fas fa-bars" id="pageNavCloser"></i>
-  <ul class="flex actions-nav">
-    <li><a href="/">Join</a></li>
-    <li><a href="/">Donate</a></li>
-    <li><a href="/">Contact</a></li>
-  </ul>
-  <div class="nav-container" id="primaryContainer">
-    <i class="fas fa-bars" id="primaryNavCloser"></i>
-    <ul class="flex primary-nav">
-      <li aria-haspopup="true">
-        About<i class="fas fa-angle-right"></i>
-        <!-- begin dropdown menu -->
-        <ul class="dropdown submenu">
-          <li>
-            About CCA
-            <!-- begin list within dropdown menu -->
-            <ul aria-label="submenu" class="submenu">
-              <li><a href="/">Our Mission</a></li>
-              <li><a href="/">History</a></li>
-              <li><a href="/">Community</a></li>
-            </ul>
-            <!-- end list within dropdown menu -->
-          </li>
-          <li>
-            Programs
-            <ul aria-label="submenu" class="submenu">
-              <li><a href="/">Special Events</a></li>
-              <li><a href="/">Gallery</a></li>
-              <li><a href="/">Theatre</a></li>
-              <li><a href="/">Film Festival</a></li>
-              <li><a href="/">Workshops & Groups</a></li>
-              <li><a href="/">Art Talks</a></li>
-            </ul>
-          </li>
-          <li>
-            People
-            <ul aria-label="submenu" class="submenu">
-              <li><a href="/">Board Members</a></li>
-              <li><a href="/">Volunteers</a></li>
-            </ul>
-          </li>
-
-          <li>
-            Supporters
-            <ul class="submenu">
-              <li><a href="/">Donors</a></li>
-              <li><a href="/">Sponsors</a></li>
-            </ul>
-          </li>
-        </ul>
-        <!-- end dropdown menu -->
-      </li>
-      <li aria-haspopup="true">
-        Events<i class="fas fa-angle-right"></i>
-      </li>
-      <li aria-haspopup="true">
-        Support<i class="fas fa-angle-right"></i>
-      </li>
-      <li aria-haspopup="true">
-        Artists<i class="fas fa-angle-right"></i>
-        <!-- begin dropdown menu -->
-        <ul class="dropdown submenu">
-          <li>
-            Visual Artists
-            <!-- begin list within dropdown menu -->
-            <ul aria-label="submenu" class="submenu">
-              <li><a href="/">Profiles</a></li>
-              <li><a href="/">Exhibit</a></li>
-              <li><a href="/">Teach</a></li>
-              <li><a href="/">Learn</a></li>
-            </ul>
-            <!-- end list within dropdown menu -->
-          </li>
-          <li>
-            Actor/Performer
-            <!-- begin list within dropdown menu -->
-            <ul aria-label="submenu" class="submenu">
-              <li><a href="/">Profiles</a></li>
-              <li><a href="/">Auditions</a></li>
-              <li><a href="/">Perform</a></li>
-            </ul>
-            <!-- end list within dropdown menu -->
-          </li>
-          <li>
-            Film Producer
-            <!-- begin list within dropdown menu -->
-            <ul aria-label="submenu" class="submenu">
-              <li><a href="/">Profiles</a></li>
-              <li><a href="/">Submit to the Festival</a></li>
-              <li><a href="/">Teach</a></li>
-            </ul>
-            <!-- end list within dropdown menu -->
-          </li>
-        </ul>
-      </li>
-      <li aria-haspopup="true">
-        Members<i class="fas fa-angle-right"></i>
-        <!-- begin dropdown menu -->
-        <ul class="dropdown submenu"></ul>
-        <!-- end dropdown menu -->
-      </li>
+  <div class="nav-container" id="pageNavContainer">
+    <i class="fas fa-bars" id="pageNavCloser"></i>
+    <ul class="flex actions-nav">
+      <li><a href="/">Join</a></li>
+      <li><a href="/">Donate</a></li>
+      <li><a href="/">Contact</a></li>
     </ul>
+    <div class="nav-container" id="primaryContainer">
+      <i class="fas fa-bars" id="primaryNavCloser"></i>
+      <ul class="flex primary-nav">
+        <li>
+          <a href="/" class="menu-trigger closed">About</a>
+          <!-- begin dropdown menu -->
+          <ul class="dropdown submenu">
+            <li>
+              About CCA
+              <!-- begin list within dropdown menu -->
+              <ul aria-label="submenu" class="submenu">
+                <li><a href="/">Our Mission</a></li>
+                <li><a href="/">History</a></li>
+                <li><a href="/">Community</a></li>
+              </ul>
+              <!-- end list within dropdown menu -->
+            </li>
+            <li>
+              Programs
+              <ul aria-label="submenu" class="submenu">
+                <li><a href="/">Special Events</a></li>
+                <li><a href="/">Gallery</a></li>
+                <li><a href="/">Theatre</a></li>
+                <li><a href="/">Film Festival</a></li>
+                <li><a href="/">Workshops & Groups</a></li>
+                <li><a href="/">Art Talks</a></li>
+              </ul>
+            </li>
+            <li>
+              People
+              <ul aria-label="submenu" class="submenu">
+                <li><a href="/">Board Members</a></li>
+                <li><a href="/">Volunteers</a></li>
+              </ul>
+            </li>
+
+            <li>
+              Supporters
+              <ul class="submenu">
+                <li><a href="/">Donors</a></li>
+                <li><a href="/">Sponsors</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- end dropdown menu -->
+        </li>
+        <li>
+          <a href="/" class="menu-trigger closed">Events</a>
+        </li>
+        <li>
+          <a href="/" class="menu-trigger closed">Support</a>
+        </li>
+        <li>
+          <a href="/" class="menu-trigger closed">Artists</a>
+          <!-- begin dropdown menu -->
+          <ul class="dropdown submenu">
+            <li>
+              Visual Artists
+              <!-- begin list within dropdown menu -->
+              <ul aria-label="submenu" class="submenu">
+                <li><a href="/">Profiles</a></li>
+                <li><a href="/">Exhibit</a></li>
+                <li><a href="/">Teach</a></li>
+                <li><a href="/">Learn</a></li>
+              </ul>
+              <!-- end list within dropdown menu -->
+            </li>
+            <li>
+              Actor/Performer
+              <!-- begin list within dropdown menu -->
+              <ul aria-label="submenu" class="submenu">
+                <li><a href="/">Profiles</a></li>
+                <li><a href="/">Auditions</a></li>
+                <li><a href="/">Perform</a></li>
+              </ul>
+              <!-- end list within dropdown menu -->
+            </li>
+            <li>
+              Film Producer
+              <!-- begin list within dropdown menu -->
+              <ul aria-label="submenu" class="submenu">
+                <li><a href="/">Profiles</a></li>
+                <li><a href="/">Submit to the Festival</a></li>
+                <li><a href="/">Teach</a></li>
+              </ul>
+              <!-- end list within dropdown menu -->
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/" class="menu-trigger closed">Members</a>
+          <!-- begin dropdown menu -->
+          <ul class="dropdown submenu"></ul>
+          <!-- end dropdown menu -->
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
