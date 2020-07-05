@@ -16,6 +16,7 @@ gulp.task('css', function() {
   './css/footer.css',
   './css/home.css',
   './css/additional-content.css', 
+  './css/banner.css',
   './css/print.css'])
              .pipe(concat('all.css'))
              .pipe(gulp.dest('./dist/css'));
@@ -24,8 +25,6 @@ gulp.task('css', function() {
 gulp.task('js', function() {
   return gulp.src(['./js/**/*.js', '!./js/main.js', './js/main.js'])
               .pipe(concat('all.js'))
-              .pipe(uglify())
-              .pipe(rename({ suffix: '.min' }))
               .pipe(gulp.dest('./dist/js'));
 });
 
