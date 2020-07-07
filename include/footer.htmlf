@@ -2,10 +2,14 @@
 <footer class="flex page-footer">
   <nav class="footer-nav">
     <ul class="flex">
-      <li><a class="fab fa-facebook" href="/"><span class="sr-only">Facebook</span></a></li>
-      <li><a class="fab fa-instagram" href="/"><span class="sr-only">Instagram</span></a></li>
-      <li><a class="fab fa-tumblr" href="/"><span class="sr-only">Tumblr</span></a></li>
-      <li><a class="fas fa-envelope" href="/"><span class="sr-only">Email</span></a></li>
+      <li><span class="fa-stack fa-1x"><i class="fa fa-circle fa-stack-2x icon-background"></i><i
+            class="fab fa-facebook-f fa-stack-1x"></i></span><a href="/" class="sr-only">Facebook</a></li>
+      <li><span class="fa-stack fa-1x"><i class="fa fa-circle fa-stack-2x icon-background"></i><i
+            class="fab fa-instagram fa-stack-1x"></i></span><a href="/" class="sr-only">Instagram</a></li>
+      <li><span class="fa-stack fa-1x"><i class="fa fa-circle fa-stack-2x icon-background"></i><i
+            class="fab fa-tumblr fa-stack-1x"></i></span><a href="/" class="sr-only">Tumblr</a></li>
+      <li><span class="fa-stack fa-1x"><i class="fa fa-circle fa-stack-2x icon-background"></i><i
+            class="fas fa-envelope fa-stack-1x"></i></span><a href="/" class="sr-only">Email</a></li>
     </ul>
     <ul class="flex site-nav">
       <li><a href="/">Accessibility</a></li>
@@ -15,8 +19,10 @@
     </ul>
   </nav>
   <div class="page-footer-info">
-   <p>Copyright &copy;2020 Allied Arts Association of Cambria - Cambria Center for the Arts, All rights reserved.</p> <p>
+    <p>Copyright &copy;2020 Allied Arts Association of Cambria - Cambria Center for the Arts, All rights reserved.</p>
+    <p>
     <address>
-      1350 Main St. Cambria, CA 93428 <a href="tel:+18059278190">(805) 927-8190</a></address></p>
+      1350 Main St. Cambria, CA 93428 <a href="tel:+18059278190">(805) 927-8190</a></address>
+    </p>
   </div>
 </footer>
