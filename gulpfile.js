@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
+var cleanCSS = require('gulp-clean-css');
 
 gulp.task('default', function() {
   console.log('Default gulp task');
@@ -19,6 +20,10 @@ gulp.task('css', function() {
   './css/banner.css',
   './css/print.css'])
              .pipe(concat('all.css'))
+             .pipe(cleanCSS({ debug: true }, (details) => {
+               console.log(`${details.name}: ${details.stats.originalSize}`);
+               console.log(`${details.name}: ${details.stats.minifiedSize}`);
+             }))
              .pipe(gulp.dest('./dist/css'));
 });
 
