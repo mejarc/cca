@@ -90,7 +90,5 @@
   .additional-content {
     flex-direction: column;
   }
-  /* .additional-content .card {
-    border-bottom: 10px solid var(--home-additional-border);
-  } */
+ 
 }

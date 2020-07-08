@@ -3,9 +3,10 @@
 .page-header {
   background-color: var(--header-background);
   background-image: url(../img/translucent_waves.png);
-  background-position: bottom;
+  background-position: bottom 5px;
   background-repeat: no-repeat;
   background-size: contain;
+  padding: 0 5px;
 }
 .page-header img {
   max-width: 100vw;

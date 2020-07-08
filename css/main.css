@@ -223,9 +223,6 @@ input[type=submit] {
 
 /* Desktop */
 @media only screen and (min-width: 769px) {
-.container {
-  grid-template-rows: 128px 1fr 1fr 1fr;
-}
   .flex {
     display: flex;
     justify-content: space-between;
