@@ -6,10 +6,6 @@
   background-color: var(--branch-background);
 }
 
-.branch:hover {
-  background-color: var(--branch-highlight-background);
-}
-
 .branch .info {
   margin-left: 10px;
   margin-right: 10px;
@@ -25,15 +21,20 @@
   margin-bottom: 10px;
   padding-top: 5px;
 }
-.branch .button:link,
+.branch .button,
 .branch .button:visited,
-.branch .button:hover,
 .branch .button:active {
-  border: 2px solid var(--home-button-border);
+  border-color: var(--home-button-border);
+  border-style: solid;
+  border-width: 2px;
   color: var(--text-yellow);
   line-height: 1.15rem;
   padding: 0.25rem;
   width: max-content;
+}
+.branch a.button:hover {
+  background-color: var(--branch-highlight-background);
+  text-decoration: none;
 }
 
 .branch h1 {
@@ -60,6 +61,9 @@
 .branch h2,
 .branch p {
   line-height: 1em;
+}
+.branch a:hover {
+  text-decoration: underline;
 }
 
 .gallery,
