@@ -1,4 +1,4 @@
-<!-- footer goes here -->
+<!-- Start Page Footer -->
 <footer class="flex page-footer">
   <nav class="footer-nav">
     <ul class="flex">
@@ -7,7 +7,7 @@
       <li><span class="fa-stack fa-1x"><i class="fa fa-circle fa-stack-2x icon-background"></i><i
             class="fab fa-instagram fa-stack-1x"></i></span><a href="/" class="sr-only">Instagram</a></li>
       <li><span class="fa-stack fa-1x"><i class="fa fa-circle fa-stack-2x icon-background"></i><i
-            class="fab fa-tumblr fa-stack-1x"></i></span><a href="/" class="sr-only">Tumblr</a></li>
+            class="fab fa-vimeo-v fa-stack-1x"></i></span><a href="/" class="sr-only">Vimeo</a></li>
       <li><span class="fa-stack fa-1x"><i class="fa fa-circle fa-stack-2x icon-background"></i><i
             class="fas fa-envelope fa-stack-1x"></i></span><a href="/" class="sr-only">Email</a></li>
     </ul>
@@ -26,3 +26,4 @@
     </p>
   </div>
 </footer>
+<!-- End Page Footer -->

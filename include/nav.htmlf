@@ -1,4 +1,4 @@
-<nav class="flex page-nav" role="navigation">
+<!-- Start Page Navigation --><nav class="flex page-nav" role="navigation">
   <div class="nav-container" id="pageNavContainer">
     <i class="fas fa-bars" id="pageNavCloser"></i>
     <ul class="flex actions-nav">
@@ -104,4 +104,4 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav><!-- Start Page Navigation -->

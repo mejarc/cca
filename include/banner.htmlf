@@ -1,3 +1,4 @@
+<!-- Start Page Banner -->
 <div class="banner flex" role="banner">
   <img src="http://cambriacenterforthearts.org/wp-content/uploads/2020/06/CCA-Rainbow-only-1.jpg" alt="" width="277"
     height="154">
@@ -16,3 +17,4 @@
     </p>
   </div>
 </div>
+<!-- End Page Banner -->
