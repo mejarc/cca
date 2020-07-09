@@ -135,7 +135,8 @@
     display: flex;
   }
   .branch img {
-    max-width: 50%;
+    min-width: 119px;
+    max-width: 767px;
   }
   .branch .info {
     flex: 1 0.5 50%;
