@@ -1,0 +1,25 @@
+  <!-- Start calendar module -->
+  <section class="branch card">
+    <header>Calendar</header>
+    <form class="calendar-search">
+      <div>
+        <label for="start">Start on</label>
+        <input id="start" placeholder="dd-mm-yyyy" type="date" value="04/12/2020" /><i class="far fa-calendar-alt"></i>
+      </div>
+      <div>
+        <label for="eventType">Type of event</label>
+        <select id="eventType">
+          <option>
+            Gallery exhibit</option>
+          <option>
+            Theatre performance</option>
+          <option>Film screening</option>
+          <option>Special event</option>
+          <option>Workshops</option>
+          <option>Art talks</option>
+        </select>
+      </div>
+      <div><input name="submitCalendarSearch" type="submit" value="Search"></div>
+      <div id="searchResults">[Search results here]</div>
+    </form>
+  </section><!-- End calendar module -->

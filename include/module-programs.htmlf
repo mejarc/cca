@@ -1,0 +1,25 @@
+<!-- Start program module --><section class="branch card">
+  <header>Programs</header>
+  <dl>
+    <dt>Gallery</dt>
+    <dd>
+      <a href="/">Montana de Oro</a> featuring the Cutting Edge Group <br />April 2 - 26
+    </dd>
+    <dt>Theatre</dt>
+    <dd>
+      <a href="/">Cambria the Musical</a> <br />April 3 - 19
+    </dd>
+    <dt>Film</dt>
+    <dd>
+      <a href="/">Title of Film </a><br />May 6, Time
+    </dd>
+    <dt>Workshops</dt>
+    <dd>
+      <a href="/">etc</a>
+    </dd>
+    <dt>Special events</dt>
+    <dd>
+      <a href="/">Film Festival </a><br />February 4 - 7, 2021
+    </dd>
+  </dl>
+</section><!-- End programs module -->
