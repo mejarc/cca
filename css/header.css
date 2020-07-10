@@ -19,18 +19,21 @@
   padding-left: 0;
   text-indent: 40px;
 }
+.page-header li li {
+  text-indent: 10px;
+}
 .page-header a:hover {
   cursor: pointer;
 }
 
 .dropdown {
+  display: none;
   visibility: hidden;
   opacity: 0;
   position: absolute;
   transition: all 0.5s ease;
   margin-top: 1px;
   padding: 0;
-  display: none;
   transition: all 0.5s ease;
 }
 
@@ -40,7 +43,10 @@ li .dropdown:hover {
   opacity: 1;
   display: block;
 }
-
+li:nth-of-type(4n) .dropdown,
+li:nth-of-type(5n) .dropdown {
+ right: 1px;
+}
 .dropdown li {
   margin-left: 0;
   width: 100%;
