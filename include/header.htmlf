@@ -1,5 +1,6 @@
 <!-- Start Page Header -->
-<div id="logo"><a href="https://cambriaarts.org/" target="_blank"><img height="118" width="392"
+<div id="logo"><a href="https://cambriaarts.org/" target="_blank"><img 
+  sizes="(min-width: 768px) 50vw, 95vw"
       src="https://cambriaarts.org/images/header_logo.png" alt="Cambria Center for the Arts Logo">
     <h1 class="sr-only">Cambria Center for the Arts</h1>
   </a></div>
