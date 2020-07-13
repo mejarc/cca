@@ -1,5 +1,5 @@
   <!-- Start calendar module -->
-  <section class="branch card">
+  <section class="card">
     <header>Calendar</header>
     <form class="calendar-search">
       <div>

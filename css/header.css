@@ -37,16 +37,6 @@
   transition: all 0.5s ease;
 }
 
-li:hover .dropdown,
-li .dropdown:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-li:nth-of-type(4n) .dropdown,
-li:nth-of-type(5n) .dropdown {
- right: 1px;
-}
 .dropdown li {
   margin-left: 0;
   width: 100%;
@@ -67,5 +57,18 @@ li:nth-of-type(5n) .dropdown {
 @media only screen and (max-width: 768px) and (min-width: 376px) {
   #logo {
     float: left;
+  }
+}
+/* Tablet and laptop only */
+@media only screen and (min-width: 769px) {
+  li:hover .dropdown,
+  li .dropdown:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  li:nth-of-type(4n) .dropdown,
+  li:nth-of-type(5n) .dropdown {
+    right: 1px;
   }
 }

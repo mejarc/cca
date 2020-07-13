@@ -14,7 +14,10 @@
 .page-footer a:active {
   color: var(--text-black);
 }
-
+.page-footer a:hover,
+.page-footer a:active {
+  text-decoration: underline;
+}
 .page-footer li {
   list-style: none;
 }
@@ -38,6 +41,7 @@
   margin-left: 0;
   padding-left: 0;
 }
+
 .site-nav a {
   border-right: 1px solid var(--text-black);
   font-size: 12pt;
@@ -61,4 +65,19 @@
 }
 .page-footer .icon-background {
   color: var(--text-black);
+}
+/* Mobile only */
+@media screen and (max-width: 376px) {
+.page-footer-info {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: right;
+ }
+ .site-nav {
+   flex-wrap: nowrap;
+   justify-content: left;
+ }
+ .page-footer .site-nav a {
+   font-size: 11pt;
+ }
 }

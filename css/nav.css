@@ -15,7 +15,10 @@
 .actions-nav a:active {
   color: var(--text-orange);
 }
-
+.actions-nav a:hover,
+.actions-nav a:active {
+  text-decoration: underline;
+}
 .primary-nav a,
 .primary-nav a:visited,
 .primary-nav a:active {
@@ -32,7 +35,8 @@
 .primary-nav li {
   cursor: pointer;
 }
-.primary-nav .dropdown li:hover {
+.primary-nav .dropdown li:hover,
+.primary-nav .dropdown a:hover {
   background-color: var(--nav-highlight-background);
   color: var(--text-white);
 }
@@ -42,7 +46,6 @@
 .primary-nav .dropdown .submenu {
   font-weight: normal;
   padding: 0;
-  /* width: 535px; */
 }
 
 .primary-nav .closed::after,
@@ -126,7 +129,7 @@
   }
   .primary-nav .submenu {
     position: static;
-    width: 90vw;
+    /* width: 93vw; */
   }
   .nav-container {
     background-color: transparent;

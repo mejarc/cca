@@ -21,7 +21,8 @@
 .card a:active {
   color: var(--text-blue);
 }
-.card a:hover {
+.card a:hover,
+.card a:active {
   text-decoration: underline;
 }
 .card header {
