@@ -205,6 +205,9 @@ address {
 input[type=submit] {
   padding: .25rem .5rem;
 }
+input[type=date] + i.fa-calendar-alt {
+  display: none;
+}
 /* ==========================================================================
    Responsive design.
    ========================================================================== */
