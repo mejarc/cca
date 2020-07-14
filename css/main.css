@@ -220,27 +220,9 @@ input[type=submit] {
 
 /* Desktop */
 @media only screen and (min-width: 769px) {
-  .flex {
-    display: flex;
-    justify-content: space-between;
-  }
-  .page-nav {
-    flex-direction: column;
-    justify-content: space-between;
-    min-width: calc(100% - 422px);
-    padding-right: 10px;
-  }
-  .actions-nav {
-    justify-content: flex-end;
-  }
-  
   .page-footer-info {
     text-align: right;
     width: 50%;
   }
   
-  .primary-nav {
-    justify-content: flex-end;
-  }
-
 }

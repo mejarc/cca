@@ -81,3 +81,10 @@
    font-size: 11pt;
  }
 }
+/* Desktop */
+@media only screen and (min-width: 769px) {
+  .page-footer-info {
+    text-align: right;
+    width: 50%;
+  }
+  
