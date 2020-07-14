@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
+var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('default', function() {
   console.log('Default gulp task');
@@ -17,7 +18,9 @@ gulp.task('css', function() {
   './css/additional-content.css', 
   './css/banner.css',
   './css/print.css'])
+             .pipe(sourcemaps.init())
              .pipe(concat('all.css'))
+             .pipe(sourcemaps.write('.'))
              .pipe(gulp.dest('./dist/css'));
 });
 
