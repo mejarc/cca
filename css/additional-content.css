@@ -1,12 +1,13 @@
 .additional-content {
-  background-color: var(--branch-background);
+  /* background-color: var(--branch-background); */
   border: 10px solid var(--home-additional-border);
   display: flex;
-  gap: 10px;
+  /* row-gap: 10px; */
 }
 
 .additional-content .card {
   background-color: var(--card-background);
+  border-right: 10px solid var(--home-additional-border);
   flex-grow: 1;
   font-family: Arial, sans-serif;
   font-size: 12pt;
@@ -14,7 +15,9 @@
   display: block;
   padding: 10px 15px;
 }
-
+.additional-content .card:last-of-type {
+  border-right: none;
+}
 .card a:link,
 .card a:visited,
 .card a:hover,
@@ -91,5 +94,11 @@
   .additional-content {
     flex-direction: column;
   }
- 
+  .additional-content .card {
+   border-bottom: 10px solid var(--home-additional-border);
+   border-right: none;
+  }
+   .additional-content .card:last-of-type {
+     border-bottom: none;
+   }
 }
