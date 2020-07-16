@@ -6,6 +6,7 @@
   background-position: bottom 5px;
   background-repeat: no-repeat;
   background-size: contain;
+  min-height: 158px;
   padding: 0 5px;
 }
 .page-header img {
