@@ -28,7 +28,6 @@
   --home-main-border: #06c;
   --nav-border: #06c;
   --button-highlight-border: #06c;
-
 }
 
 /* ==========================================================================
@@ -190,22 +189,22 @@ textarea {
 /* ==========================================================================
  Visual theme
   ========================================================================== */
-  html {
-    color: var(--text-black);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18pt;
-    line-height: 1.4;
-  }
+html {
+  color: var(--text-black);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  line-height: 1.4;
+}
 a {
   text-decoration: none;
 }
 address {
   font-style: normal;
 }
-input[type=submit] {
-  padding: .25rem .5rem;
+input[type="submit"] {
+  padding: 0.25rem 0.5rem;
 }
-input[type=date] + i.fa-calendar-alt {
+input[type="date"] + i.fa-calendar-alt {
   display: none;
 }
 /* ==========================================================================
@@ -213,14 +212,18 @@ input[type=date] + i.fa-calendar-alt {
    ========================================================================== */
 /* Default layout */
 
-
 /* Mobile-only */
 @media only screen and (max-width: 375px) {
   html {
     background: var(--text-blue);
   }
 }
-
+/* Tablet only */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    clear: both;
+  }
+}
 /* Desktop */
 @media only screen and (min-width: 769px) {
   .flex {
@@ -231,5 +234,4 @@ input[type=date] + i.fa-calendar-alt {
     text-align: right;
     width: 50%;
   }
-  
 }

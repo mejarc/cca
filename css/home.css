@@ -5,7 +5,7 @@
   font-weight: bold;
   background-color: var(--branch-background);
   border-collapse: collapse;
-  border-color:  var(--home-main-border);
+  border-color: var(--home-main-border);
   border-style: solid;
   border-top-width: 10px;
 }
@@ -130,8 +130,8 @@
   }
 }
 /* Tablet only */
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
 
 /* Desktop and tablet */
 @media only screen and (min-width: 768px) {
