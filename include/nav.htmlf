@@ -97,7 +97,7 @@
         <li>
           <a href="/" class="menu-trigger closed">Members</a>
           <!-- begin dropdown menu -->
-          <ul class="dropdown submenu"></ul>
+          <!-- <ul class="dropdown submenu"></ul> -->
           <!-- end dropdown menu -->
         </li>
       </ul>
