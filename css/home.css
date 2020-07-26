@@ -14,16 +14,9 @@
   margin-right: 10px;
   text-align: center;
 }
-.branch .info.flex {
-  align-items: stretch;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.branch .button-holder {
-  justify-content: flex-end;
+
+.branch .button-holder { 
   margin-bottom: 10px;
-  padding-top: 5px;
   text-align: right;
 }
 .branch .button,
@@ -54,18 +47,11 @@
   font-weight: normal;
   margin: 5px 0;
 }
-.branch img {
-  height: auto;
-  width: 100%;
-}
+
 .branch p {
   margin: 0;
 }
-.branch h1,
-.branch h2,
-.branch p {
-  line-height: 1em;
-}
+
 .branch a:hover {
   text-decoration: underline;
 }
@@ -124,9 +110,17 @@
   margin-right: 10px;
 }
 /* Mobile and tablet layout */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1023px) {
+  .branch img,
   .branch .button-holder {
+    display: block;
+    margin: 10px auto;
     text-align: center;
+  }
+  .branch img {
+    margin-top: 0;
+    height: auto;
+    width: 100%;
   }
 }
 /* Tablet only */
@@ -134,31 +128,39 @@
 }
 
 /* Desktop and tablet */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .home {
     box-sizing: border-box;
   }
   .branch {
     display: flex;
   }
-  .branch img {
-    min-width: 119px;
-    max-width: 767px;
+  .branch h1,
+.branch h2,
+.branch p {
+  line-height: 1em;
+}
+  .branch .button-holder {
+    bottom: 5px;
+    position: absolute;
+    right: 5px;
+
   }
   .branch .info {
-    flex: 1 0.5 50%;
+    flex: 1;
     min-width: 0;
+    position: relative;
   }
 
   .branch:nth-of-type(2n) .info {
     margin-right: 10px;
     order: 1;
   }
-  .branch:nth-of-type(2n) img {
+  .branch:nth-of-type(2n) a {
     order: 2;
   }
   .branch:nth-of-type(2n) .button-holder {
-    justify-content: flex-start;
-    align-self: flex-start;
+    left: 5px;
+    right: auto;
   }
 }

@@ -6,8 +6,7 @@
       <li><a href="/">Donate</a></li>
       <li><a href="/">Contact</a></li>
     </ul>
-    <div class="nav-container" id="primaryContainer">
-      <i class="fas fa-bars" id="primaryNavCloser"></i>
+  
       <ul class="flex primary-nav">
         <li>
           <a href="/" class="menu-trigger closed">About</a>
@@ -102,6 +101,5 @@
           <!-- end dropdown menu -->
         </li>
       </ul>
-    </div>
   </div>
-</nav><!-- Start Page Navigation -->
+</nav><!-- End Page Navigation -->

@@ -7,6 +7,7 @@
   --calendar-button-background: #06c;
   --calendar-button-highlight-background: #f60;
   --card-background: white;
+  --container-background: black;
   --footer-background: white;
   --home-background: #06c;
   --icon-background: #000;
@@ -211,13 +212,14 @@ input[type="date"] + i.fa-calendar-alt {
    Responsive design.
    ========================================================================== */
 /* Default layout */
-
-/* Mobile-only */
-@media only screen and (max-width: 375px) {
-  html {
-    background: var(--text-blue);
-  }
+body, 
+.container {
+  background: var(--container-background);
 }
+.container {
+    margin: 0 auto;
+}
+
 /* Tablet only */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .container {
@@ -225,7 +227,10 @@ input[type="date"] + i.fa-calendar-alt {
   }
 }
 /* Desktop */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 1160px;
+  }
   .flex {
     display: flex;
     justify-content: space-between;
