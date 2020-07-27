@@ -220,7 +220,6 @@
     opacity: 1;
     display: block;
   }
-  li:nth-of-type(4n) .dropdown,
   li:nth-of-type(5n) .dropdown {
     right: 1px;
   }
