@@ -229,7 +229,7 @@ body,
 /* Desktop */
 @media only screen and (min-width: 1024px) {
   .container {
-    width: 1160px;
+    width: 1105px;
   }
   .flex {
     display: flex;
