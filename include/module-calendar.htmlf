@@ -4,7 +4,7 @@
   <form class="calendar-search">
     <div>
       <label for="start">Start on</label>
-      <input id="start" placeholder="dd-mm-yyyy" type="date" value="04/12/2020" /><i class="far fa-calendar-alt"></i>
+      <input id="start" placeholder="dd-MM-yyyy" type="date" value="04/12/2020" /><i class="far fa-calendar-alt"></i>
     </div>
     <div>
       <label for="eventType">Type of event</label>

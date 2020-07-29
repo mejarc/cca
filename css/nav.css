@@ -207,7 +207,7 @@
     display: none;
   }
   .primary-nav .submenu {
-    min-width: 20vw;
+    min-width: 30vw;
   }
   .primary-nav .closed::after,
   .primary-nav .open::after {
