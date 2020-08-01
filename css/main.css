@@ -229,11 +229,11 @@ body,
 /* Desktop */
 @media only screen and (min-width: 1024px) {
   .container {
-    width: 1105px;
+    width: clamp(1106px, 1360px, 80vw);
   }
   .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
   }
   .page-footer-info {
     text-align: right;
