@@ -206,6 +206,10 @@
   .page-nav i[class*="times"] {
     display: none;
   }
+  .primary-nav > li {
+    text-indent: 0;
+    margin-right: 40px;
+  }
   .primary-nav .submenu {
     min-width: 30vw;
   }
