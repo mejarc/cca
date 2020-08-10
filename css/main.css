@@ -235,8 +235,4 @@ body,
     display: flex;
     justify-content: space-between; 
   }
-  .page-footer-info {
-    text-align: right;
-    width: 50%;
-  }
 }
