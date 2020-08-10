@@ -8,6 +8,9 @@
   border-color: var(--home-main-border);
   border-style: solid;
   border-top-width: 10px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
 }
 .branch .info {
   margin-left: 10px;
@@ -15,7 +18,7 @@
   text-align: center;
 }
 
-.branch .button-holder { 
+.branch .button-holder {
   margin-bottom: 10px;
   text-align: right;
 }
@@ -139,15 +142,14 @@
     display: flex;
   }
   .branch h1,
-.branch h2,
-.branch p {
-  line-height: 1em;
-}
+  .branch h2,
+  .branch p {
+    line-height: 1em;
+  }
   .branch .button-holder {
     bottom: 5px;
     position: absolute;
     right: 5px;
-
   }
   .branch .info {
     flex: 1;
