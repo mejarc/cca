@@ -1,5 +1,7 @@
 .additional-content {
   border: 10px solid var(--home-additional-border);
+  border-left: 0;
+  border-right: 0;
   display: flex;
 }
 
