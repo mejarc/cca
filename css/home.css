@@ -14,7 +14,7 @@
 }
 .branch .img-holder {
   display: block;
-  min-height: 238px;
+  height: 374px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -50,6 +50,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-size: 72pt;
   font-weight: 900;
+  line-height: 1.15;
   margin: 10px 0 0 0;
   text-transform: uppercase;
 }
@@ -162,14 +163,15 @@
   }
 
   .branch .img-holder {
-    width: 52%;
+    height: 374px;
+    width: 748px;
   }
 
   .branch .info {
     flex: 1;
     min-width: 0;
     position: relative;
-    width: 60vw;
+    width: calc(100% - 748px);
   }
   .branch:nth-of-type(2n) .info {
     margin-right: 10px;
