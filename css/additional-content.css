@@ -8,7 +8,7 @@
 .additional-content .card {
   background-color: var(--card-background);
   border-right: 10px solid var(--home-additional-border);
-  flex-grow: 1;
+  flex: 1;
   font-family: Arial, sans-serif;
   font-size: 12pt;
   font-weight: normal;
