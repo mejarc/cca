@@ -1,7 +1,7 @@
 .additional-content {
   border: 10px solid var(--home-additional-border);
-  border-left: 0;
-  border-right: 0;
+  border-left-width: 0;
+  border-right-width: 0;
   display: flex;
 }
 
@@ -93,11 +93,15 @@
 @media only screen and (max-width: 1022px) {
   .additional-content {
     flex-direction: column;
+    border-left-width: 10px;
+    border-right-width: 10px;
+
   }
   .additional-content .card {
    border-bottom: 10px solid var(--home-additional-border);
    border-right: none;
   }
+  
    .additional-content .card:last-of-type {
      border-bottom: none;
    }

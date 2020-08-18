@@ -3,11 +3,11 @@
 .page-header {
   background-color: var(--header-background);
   background-image: url(../img/translucent_waves.png);
-  background-position: bottom 5px;
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 158px;
-  padding: 0 5px;
+  box-sizing: border-box;
+  height: 148px;
+  padding: 15px;
 }
 .page-header img {
   max-width: 95vw;
@@ -29,6 +29,9 @@
 
 /* Mobile only */
 @media only screen and (max-width: 1024px) {
+  .page-header {
+    padding: 0;
+  }
   .page-header li {
     padding: 0;
   }
