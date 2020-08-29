@@ -13,12 +13,12 @@
   border-right: 0;
 }
 .branch .img-holder {
-  display: block;
+display: block;
   height: 374px;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  font-size: 0;
+   background-repeat: no-repeat;
+  background-size: cover;
+   font-size: 0;
 }
 .branch .info {
   margin-left: 10px;
@@ -135,9 +135,8 @@
   .branch .button-holder {
     margin-bottom: 15px;
   }
-  .branch img {
+  .branch .img-holder {
     margin-top: 0;
-    height: auto;
     width: 100%;
   }
 }
@@ -163,8 +162,13 @@
   }
 
   .branch .img-holder {
-    height: 374px;
-    width: 748px;
+    width: 55%;
+  }
+
+  .branch .img-holder-inner {
+    display: block;
+    height: 0;
+    padding-top: 50%;
   }
 
   .branch .info {
