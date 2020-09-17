@@ -1,0 +1,23 @@
+<!-- Start artists module --><section class="card">
+  <header>Artists</header>
+  <dl>
+    <dt>Call ro Artists</dt>
+    <dd>
+      COVID-19 2-Week+ Challenge<br />
+      April 30 - May 31<br />
+      Exchange Day April 28<br />
+      <a href="/">Link to criteria</a>
+    </dd>
+    <dt>Auditions</dt>
+    <dd>
+      Show
+      <br />
+      Auditin Dates/Times <br /><a href="/">Link to specifics</a>
+    </dd>
+    <dt>Film Submissions</dt>
+    <dd>
+      Deadline<br />
+      <a href="/">Link to criteria</a>
+    </dd>
+  </dl>
+</section><!-- End artists module -->

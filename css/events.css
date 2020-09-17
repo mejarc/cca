@@ -1,0 +1,15 @@
+/* ====== Events page =====*/
+.events-listing .branch h1 {
+  font-size: 30pt;
+}
+.events-listing .branch h2 {
+  font-size: 18pt;
+}
+
+.events-listing .branch p {
+  font-size: 18pt;
+  font-weight: normal;
+}
+.events-listing .branch p:last-of-type {
+  font-weight: bold;
+}
