@@ -1,0 +1,58 @@
+<!-- Begin calendar -->
+<section class="calendar">
+  <header class="calendar-month-header"><a class="button" href="/"><i class="fas fa-angle-left"></i><span
+        class="sr-only">Previous
+        month</span></a>April 2020<a class="button" href="/"><i class="fas fa-angle-right"></i><span
+        class="sr-only">Next month</span></a></header>
+  <!-- Calendar grid header -->
+  <ul id="days-of-week" class="day-of-week">
+    <li>Su</li>
+    <li>Mo</li>
+    <li>Tu</li>
+    <li>We</li>
+    <li>Th</li>
+    <li>Fr</li>
+    <li>Sa</li>
+  </ul>
+
+  <!-- Calendar grid -->
+  <ul id="calendar-days" class="days-grid">
+    <li>29</li>
+    <li>30</li>
+    <li>31</li>
+    <li>1</li>
+    <li class="active">2</li>
+    <li class="active">3</li>
+    <li class="active">4</li>
+    <li class="active">5</li>
+    <li class="active">6</li>
+    <li class="active">7</li>
+    <li class="active">8</li>
+    <li class="active">9</li>
+    <li class="active">10</li>
+    <li class="active">11</li>
+    <li class="active">12</li>
+    <li class="active">13</li>
+    <li class="active">14</li>
+    <li class="active">15</li>
+    <li class="active">16</li>
+    <li class="active">17</li>
+    <li class="active">18</li>
+    <li class="active">19</li>
+    <li class="active">20</li>
+    <li class="active">21</li>
+    <li class="active">22</li>
+    <li class="active">23</li>
+    <li class="active">24</li>
+    <li class="active">25</li>
+    <li>26</li>
+    <li>27</li>
+    <li>28</li>
+    <li>29</li>
+    <li>30</li>
+    <li>1</li>
+    <li>2</li>
+  </ul>
+
+</section>
+<!-- End calendar -->

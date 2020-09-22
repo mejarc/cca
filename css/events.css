@@ -1,13 +1,13 @@
 /* ====== Events page =====*/
 .heading {
-  background: var(--branch-background);
+  background-color: var(--branch-background);
   color: var(--text-orange);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-size: 72pt;
   font-weight: 900;
   line-height: 1em;
   margin: 0;
-  padding: 10px;
+  padding: 0 10px;
   text-transform: uppercase;
 }
 .events-listing {
@@ -32,4 +32,95 @@
 }
 .events-listing .branch p:last-of-type {
   font-weight: bold;
+}
+/* === Sections in sidebar === */
+.events-listing .sidebar section {
+  margin: 0 15px;
+}
+/* ====== Calendar in sidebar. 
+cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ====== */
+.events-listing .calendar ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.calendar-month {
+  /* position: relative; */
+  background-color: var(--card-background);
+  border: solid 1px var(--events-calendar-border);
+}
+
+/* Month indicator */
+.calendar-month-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--header-background);
+  padding: 10px;
+}
+
+.calendar .button,
+.calendar .button:visited,
+.calendar .button:active,
+.calendar .button:hover {
+  color: var(--text-black);
+}
+
+.day-of-week {
+  color: var(--text-black);
+  background-color: var(--card-background);
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.day-of-week,
+.days-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.days-grid {
+  height: 100%;
+  position: relative;
+  grid-column-gap: 0;
+  grid-row-gap: 5px;
+}
+.days-grid li {
+  background-color: var(--card-background);
+  color: var(--text-black);
+  padding: 5px;
+}
+.days-grid li.active {
+  background-color: var(--calendar-highlight-background);
+  color: var(--text-white);
+}
+.calendar-day {
+  position: relative;
+  min-height: 20px;
+  background-color: var(--card-background);
+  color: var(--text-black);
+  padding: 5px;
+  text-align: center;
+}
+/* === Events search form === */
+.calendar-search .input-container {
+  border: 1px solid var(--events-calendar-border);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.calendar-search .input-container button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.input-container input {
+  border: none;
+  outline: 0;
+}
+.input-container label {
+  line-height: 1em;
+}
+.input-container label::after {
+  content: '';
 }

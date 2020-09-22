@@ -1,14 +1,15 @@
 :root {
   /* backgrounds */
-  --header-background: white;
   --banner-background: white;
   --branch-background: black;
   --branch-highlight-background: #06c;
   --calendar-button-background: #06c;
   --calendar-button-highlight-background: #f60;
+  --calendar-highlight-background: #06c;
   --card-background: white;
   --container-background: black;
   --footer-background: white;
+  --header-background: white;
   --home-background: #06c;
   --icon-background: #000;
   --nav-background: white;
@@ -16,20 +17,21 @@
   --selection-background: #ccc;
 
   /* text colors */
-  --text-yellow: #fc0;
-  --text-orange: #f60;
-  --text-blue: #06c;
-  --text-red: #f30;
   --text-black: #000;
+  --text-blue: #06c;
+  --text-orange: #f60;
+  --text-red: #f30;
   --text-white: white;
+  --text-yellow: #fc0;
 
   /* borders */
+  --button-highlight-border: #06c;
+  --events-border: white;
+  --events-calendar-border: black;
   --home-additional-border: black;
   --home-button-border: #fc0;
   --home-main-border: #06c;
   --nav-border: #06c;
-  --button-highlight-border: #06c;
-  --events-border: white;
 }
 
 /* ==========================================================================

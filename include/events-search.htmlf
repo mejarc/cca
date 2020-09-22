@@ -1,0 +1,9 @@
+<!-- Begin, Events search form -->
+<section class="card">
+  <form class="calendar-search">
+
+    <div class="input-container"><label for="submitCalendarSearch">Search All Events</label><button><i class="fas fa-search"></i><span class="sr-only">Search calendar</span></button></div>
+  
+  </form>
+</section>
+<!-- End, Events search form -->
