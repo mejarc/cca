@@ -106,6 +106,7 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
   border: 1px solid var(--events-calendar-border);
   display: flex;
   justify-content: space-between;
+  line-height: 1em;
   padding: 10px;
 }
 .calendar-search .input-container button {
@@ -118,8 +119,12 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
   border: none;
   outline: 0;
 }
-.input-container label {
-  line-height: 1em;
+.input-container input::placeholder {
+  color: var(--text-black);
+  opacity: 1.0;
+}
+.input-container input:focus::placeholder {
+  color: transparent;
 }
 .input-container label::after {
   content: '';

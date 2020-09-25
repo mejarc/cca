@@ -2,7 +2,9 @@
 <section class="card">
   <form class="calendar-search">
 
-    <div class="input-container"><label for="submitCalendarSearch">Search All Events</label><button><i class="fas fa-search"></i><span class="sr-only">Search calendar</span></button></div>
+    <div class="input-container">
+      <label class="sr-only" for="calendarSearchQuery" id="calendarSearchLabel">Search All Events</label>
+      <input id="calendarSearchQuery" placeholder="Search All Events" /><button><i class="fas fa-search"></i><span class="sr-only">Search calendar</span></button></div>
   
   </form>
 </section>
