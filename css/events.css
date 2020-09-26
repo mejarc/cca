@@ -37,6 +37,19 @@
 .events-listing .sidebar section {
   margin: 0 15px;
 }
+.events-listing .sidebar header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--header-background);
+  padding: 10px;
+}
+
+.sidebar .button,
+.sidebar .button:visited,
+.sidebar .button:active,
+.sidebar .button:hover {
+  color: var(--text-black);
+}
 /* ====== Calendar in sidebar. 
 cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ====== */
 .events-listing .calendar ul {
@@ -45,24 +58,8 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
   text-align: center;
 }
 .calendar-month {
-  /* position: relative; */
   background-color: var(--card-background);
   border: solid 1px var(--events-calendar-border);
-}
-
-/* Month indicator */
-.calendar-month-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--header-background);
-  padding: 10px;
-}
-
-.calendar .button,
-.calendar .button:visited,
-.calendar .button:active,
-.calendar .button:hover {
-  color: var(--text-black);
 }
 
 .day-of-week {
@@ -121,11 +118,35 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
 }
 .input-container input::placeholder {
   color: var(--text-black);
-  opacity: 1.0;
+  opacity: 1;
 }
 .input-container input:focus::placeholder {
   color: transparent;
 }
 .input-container label::after {
-  content: '';
+  content: "";
+}
+/* === Event types filter === */
+.event-types form div {
+  display: flex;
+  align-items: center;
+}
+.events-listing input[type="checkbox"] {
+  height: 1em;
+  margin-right: 10px;
+  outline: none;
+  width: 1em;
+}
+
+/* == remove browser styling on checkboxes == */
+@supports (-webkit-appearance: none) or (-moz-appearance: none) {
+  .events-listing input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid var(--events-checkbox-border);
+    height: 1em;
+    opacity: 1;
+    outline: none;
+    width: 1em;
+  }
 }

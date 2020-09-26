@@ -1,0 +1,25 @@
+<!-- begin Event Types filter -->
+<section class="event-types">
+  <header>Event Type <a class="button"><i class="fas fa-angle-right"></i><span class="sr-only">Expand</span></a>
+  </header>
+  <form id="eventForm">
+    <div><input type="checkbox" id="gallery" value="">
+      <label for="gallery">Gallery</label></div>
+    <div>
+      <input type="checkbox" value="" id="theatre">
+      <label for="theatre">Theatre</label></div>
+    <div>
+      <input type="checkbox" id="film" value=""><label for="film">Film Festival</label></div>
+    <div><input type="checkbox" id="special" value=""><label for="special">Special event</label></div>
+    <div>
+      <input type="checkbox" id="community" value=""><label for="community">Community event</label></div>
+    <div>
+      <input type="checkbox" id="art" value=""><label for="art">Art talk</label>
+    </div>
+    <div>
+      <input type="checkbox" id="workshops" value=""><label for="workshops">Workshops</label></div>
+    <div>
+      <input type="checkbox" id="groups" value=""><label for="groups">Groups</label></div>
+  </form>
+</section>
+<!-- end Event Types filter -->
