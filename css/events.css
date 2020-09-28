@@ -35,7 +35,9 @@
 }
 /* === Sections in sidebar === */
 .events-listing .sidebar section {
-  margin: 0 15px;
+  border: 1px solid var(--events-calendar-border);
+  margin: 15px;
+  padding: 10px;
 }
 .events-listing .sidebar header {
   display: flex;
@@ -50,6 +52,7 @@
 .sidebar .button:hover {
   color: var(--text-black);
 }
+
 /* ====== Calendar in sidebar. 
 cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ====== */
 .events-listing .calendar ul {
@@ -100,11 +103,9 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
 }
 /* === Events search form === */
 .calendar-search .input-container {
-  border: 1px solid var(--events-calendar-border);
   display: flex;
   justify-content: space-between;
   line-height: 1em;
-  padding: 10px;
 }
 .calendar-search .input-container button {
   background: transparent;
@@ -115,6 +116,9 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
 .input-container input {
   border: none;
   outline: 0;
+}
+.calendar-search .input-container {
+  margin-bottom: 0;
 }
 .input-container input::placeholder {
   color: var(--text-black);
@@ -137,6 +141,7 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
   outline: none;
   width: 1em;
 }
+
 
 /* == remove browser styling on checkboxes == */
 @supports (-webkit-appearance: none) or (-moz-appearance: none) {

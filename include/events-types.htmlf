@@ -1,8 +1,8 @@
 <!-- begin Event Types filter -->
 <section class="event-types">
-  <header>Event Type <a class="button"><i class="fas fa-angle-right"></i><span class="sr-only">Expand</span></a>
+  <header>Event Type <a class="button"><i class="fas fa-angle-down fa-angle-right"  id="eventFormCloser"></i><span class="sr-only">Expand</span></a>
   </header>
-  <form id="eventForm">
+  <form class="sr-only" id="eventForm">
     <div><input type="checkbox" id="gallery" value="">
       <label for="gallery">Gallery</label></div>
     <div>
