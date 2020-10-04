@@ -15,9 +15,11 @@
   border-width: 10px;
   border-style: solid;
   border-color: var(--home-main-border);
+  padding: 15px;
 }
 .events-listing .branch {
   border-color: var(--events-border);
+  display: block;
 }
 .events-listing .branch h1 {
   font-size: 30pt;
@@ -33,10 +35,22 @@
 .events-listing .branch p:last-of-type {
   font-weight: bold;
 }
+.events-listing .img-holder {
+  background-size: 100%;
+  height: auto;
+  min-height: 123px;
+}
+.events-listing .img-holder-inner {
+  padding-top: 0;
+}
+.events-listing .info {
+  text-align: left;
+}
+
 /* === Sections in sidebar === */
 .events-listing .sidebar section {
   border: 1px solid var(--events-calendar-border);
-  margin: 15px;
+  margin: 15px 0;
   padding: 10px;
 }
 .events-listing .sidebar header {
@@ -153,5 +167,29 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
     opacity: 1;
     outline: none;
     width: 1em;
+  }
+}
+/* == Mobile view == */
+@media screen and (max-width: 1023px) {
+  
+}
+/* == Tablet and laptop view == */
+@media screen and (min-width: 1024px) {
+  .events-listing .branch {
+    height: 364px;
+    width: 387px;
+  }
+  .events-listing .img-holder {
+    min-height: 123px;
+    width: 100%;
+  }
+  .events-listing .info {
+    flex: none;
+    max-height: 300px;
+    min-height: 10px;
+    width: auto; /* provisional. */
+  }
+  .events-listing .img-holder-inner {
+    padding-top: 0;
   }
 }
