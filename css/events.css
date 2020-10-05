@@ -156,7 +156,6 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
   width: 1em;
 }
 
-
 /* == remove browser styling on checkboxes == */
 @supports (-webkit-appearance: none) or (-moz-appearance: none) {
   .events-listing input[type="checkbox"] {
@@ -169,15 +168,22 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
     width: 1em;
   }
 }
+/* == Main content area == */
+.events-main {
+  margin-top: 15px;
+}
 /* == Mobile view == */
 @media screen and (max-width: 1023px) {
+  .events-listing .branch {
+    width: 100%;
+  }
   
 }
 /* == Tablet and laptop view == */
 @media screen and (min-width: 1024px) {
+
   .events-listing .branch {
-    height: 364px;
-    width: 387px;
+    border-width: 0;
   }
   .events-listing .img-holder {
     min-height: 123px;
@@ -185,11 +191,19 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
   }
   .events-listing .info {
     flex: none;
-    max-height: 300px;
-    min-height: 10px;
-    width: auto; /* provisional. */
+    margin: 10px;
+    width: calc(100% - 20px);
   }
   .events-listing .img-holder-inner {
     padding-top: 0;
+  }
+  .events-main {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:15px;
+  }
+  .events-listing .sidebar {
+    float: left;
+    margin-right: 15px;
   }
 }
