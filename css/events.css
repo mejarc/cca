@@ -36,15 +36,18 @@
   font-weight: bold;
 }
 .events-listing .img-holder {
-  background-size: 100%;
+  /* background-size: cover; */
+  background-size: 100% 285px;
   height: auto;
-  min-height: 123px;
+  min-height: 235px;
 }
 .events-listing .img-holder-inner {
   padding-top: 0;
 }
 .events-listing .info {
+  margin: 15px;
   text-align: left;
+  width: calc(100% - 30px);
 }
 
 /* === Sections in sidebar === */
@@ -57,7 +60,6 @@
   display: flex;
   justify-content: space-between;
   background-color: var(--header-background);
-  padding: 10px;
 }
 
 .sidebar .button,
@@ -71,6 +73,7 @@
 cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ====== */
 .events-listing .calendar ul {
   list-style: none;
+  margin: 0;
   padding: 0;
   text-align: center;
 }
@@ -181,12 +184,10 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
 }
 /* == Tablet and laptop view == */
 @media screen and (min-width: 1024px) {
-
   .events-listing .branch {
     border-width: 0;
   }
   .events-listing .img-holder {
-    min-height: 123px;
     width: 100%;
   }
   .events-listing .info {
@@ -202,8 +203,15 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
     grid-template-columns: repeat(2, 1fr);
     grid-gap:15px;
   }
-  .events-listing .sidebar {
+  .events-listing .sidebar .calendar {
+    margin-top: 0;
+  }
+  .events-listing .sidebar .inner {
     float: left;
     margin-right: 15px;
+    width: 27%;
+  }
+  .events-listing .sidebar .card {
+    margin-left: calc(27% + 15px);
   }
 }
