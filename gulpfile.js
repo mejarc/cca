@@ -17,6 +17,7 @@ gulp.task('css', function() {
   './css/home.css',
   './css/additional-content.css', 
   './css/banner.css',
+  './css/events.css',
   './css/print.css'])
              .pipe(sourcemaps.init())
              .pipe(concat('all.css'))
