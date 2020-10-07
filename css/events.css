@@ -175,12 +175,16 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
 .events-main {
   margin-top: 15px;
 }
-/* == Mobile view == */
+/* == Mobile views == */
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 17vw;
+  }
+}
 @media screen and (max-width: 1023px) {
   .events-listing .branch {
     width: 100%;
   }
-  
 }
 /* == Tablet and laptop view == */
 @media screen and (min-width: 1024px) {
