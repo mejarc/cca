@@ -153,23 +153,23 @@ cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ======
   align-items: center;
 }
 .events-listing input[type="checkbox"] {
+  border: 1px solid var(--events-checkbox-border);
   height: 1em;
   margin-right: 10px;
+  opacity: 1;
   outline: none;
   width: 1em;
 }
 
 /* == remove browser styling on checkboxes == */
-@supports (-webkit-appearance: none) or (-moz-appearance: none) {
+ @supports (-webkit-appearance: none) or (-moz-appearance: none) {
   .events-listing input[type="checkbox"] {
     -webkit-appearance: none;
     -moz-appearance: none;
-    border: 1px solid var(--events-checkbox-border);
-    height: 1em;
-    opacity: 1;
-    outline: none;
-    width: 1em;
-  }
+ }
+ .events-listing input[type="checkbox"]:checked {
+  background: var(--calendar-highlight-background);
+}
 }
 /* == Main content area == */
 .events-main {
