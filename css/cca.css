@@ -1,0 +1,1358 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+html,body,p,ol,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}
+button,input,select,textarea{margin:0}
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+img,embed,iframe,object,audio,video{height:auto;max-width:100%}
+iframe{border:0}
+table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
+/*! END  minireset.css v0.0.3 */
+
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+	margin:0 0 0.7em 0;
+}
+
+ul {	
+	margin-top:0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+:root {
+  /* backgrounds */
+  --banner-background: white;
+  --branch-background: black;
+  --branch-highlight-background: #06c;
+  --calendar-button-background: #06c;
+  --calendar-button-highlight-background: #f60;
+  --calendar-highlight-background: #06c;
+  --card-background: white;
+  --container-background: black;
+  --footer-background: white;
+  --header-background: white;
+  --home-background: #06c;
+  --icon-background: #000;
+  --nav-background: white;
+  --nav-highlight-background: #06c;
+  --selection-background: #ccc;
+
+  /* text colors */
+  --text-black: #000;
+  --text-blue: #06c;
+  --text-orange: #f60;
+  --text-red: #f30;
+  --text-white: white;
+  --text-yellow: #fc0;
+
+  /* borders */
+  --button-highlight-border: #06c;
+  --events-border: white;
+  --events-calendar-border: black;
+  --events-checkbox-border: black;
+  --home-additional-border: black;
+  --home-button-border: #fc0;
+  --home-main-border: #06c;
+  --nav-border: #06c;
+}
+
+/* ==========================================================================
+   Base styles.
+   ========================================================================== */
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: var(--selection-background);
+  text-shadow: none;
+}
+
+::selection {
+  background: var(--selection-background);
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Custom styles for this site. "Mobile first" layout for screen sizes < 376 px
+   ========================================================================== */
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide content visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide content visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+ Visual theme
+  ========================================================================== */
+html {
+  color: var(--text-black);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
+input[type="submit"] {
+  padding: 0.25rem 0.5rem;
+}
+input[type="date"] + i.fa-calendar-alt {
+  display: none;
+}
+/* ==========================================================================
+   Responsive design.
+   ========================================================================== */
+/* Default layout */
+body, 
+.container {
+  background: var(--container-background);
+}
+.container {
+    margin: 0 auto;
+}
+
+/* Tablet only */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    clear: both;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1360px;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between; 
+  }
+}
+
+/* ====== Page header ====== */
+
+.page-header {
+  background-color: var(--header-background);
+  background-image: url(../img/translucent_waves.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  height: 148px;
+  padding: 15px;
+}
+.page-header img {
+  max-width: 95vw;
+}
+
+/* ====== Header dropdown menus ======== */
+.page-header li {
+  display: block;
+  margin: 0;
+  padding-left: 0;
+  text-indent: 40px;
+}
+.page-header li li {
+  text-indent: 15px;
+}
+.page-header a:hover {
+  cursor: pointer;
+}
+
+/* Mobile only */
+@media only screen and (max-width: 1024px) {
+  .page-header {
+    padding: 0;
+  }
+  .page-header li {
+    padding: 0;
+  }
+}
+
+
+.page-nav {
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+}
+.actions-nav {
+  font-size: 17pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.dropdown {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1px;
+  padding: 0;
+}
+
+.dropdown li {
+  margin-left: 0;
+  width: 100%;
+}
+.dropdown a {
+  display: block;
+}
+.submenu li a {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.actions-nav a,
+.actions-nav a:hover,
+.actions-nav a:visited,
+.actions-nav a:active {
+  color: var(--text-orange);
+}
+.actions-nav a:hover,
+.actions-nav a:active {
+  text-decoration: underline;
+}
+.primary-nav a,
+.primary-nav a:visited,
+.primary-nav a:active {
+  color: var(--text-black);
+}
+
+.primary-nav .dropdown {
+  background-color: var(--nav-background);
+  border: 1px solid var(--nav-border);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 3;
+}
+.primary-nav li {
+  cursor: pointer;
+}
+.primary-nav .dropdown li:hover,
+.primary-nav .dropdown a:hover,
+.primary-nav .submenu a:hover {
+  background-color: var(--nav-highlight-background);
+  color: var(--text-white);
+}
+.primary-nav .dropdown li:hover .submenu {
+  background-color: var(--nav-background);
+}
+.primary-nav .dropdown .submenu {
+  font-weight: normal;
+  padding: 0;
+}
+
+.primary-nav .closed::after,
+.primary-nav .open::after {
+  float: right;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  height: 1em;
+  margin-right: 10px;
+  text-decoration: inherit;
+}
+
+.primary-nav .closed::after {
+  content: "\f105";
+}
+.primary-nav .open::after {
+  content: "\f107";
+}
+
+/* "Hamburger" menu */
+.page-nav .fa-bars,
+.page-nav .fa-times {
+  color: var(--text-black);
+  cursor: pointer;
+  margin: 10px;
+  float: right;
+}
+
+/* Mobile and tablet */
+@media only screen and (max-width: 1024px) {
+  .actions-nav,
+  .primary-nav {
+    transition: all 0.5s ease;
+    display: none;
+    font-weight: bold;
+    padding-left: 0;
+  }
+  .primary-nav {
+    padding-top: 2em;
+  }
+  .page-nav {
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: calc(100vw - 20px);
+  }
+
+  .page-nav i[class*="times"],
+  .page-nav li i[class*="angle"],
+  .page-nav i[class*="bars"] {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: -2rem;
+  }
+  .page-nav i[class*="times"] {
+    cursor: pointer;
+    top: 15px;
+  }
+  .page-nav li {
+    position: relative;
+    text-indent: 0;
+  }
+  .page-nav.visible {
+    border: 1px solid var(--nav-border);
+  }
+  .primary-nav {
+    padding-top: 0;
+  }
+  .primary-nav .dropdown > li {
+    text-indent: 20px;
+  }
+
+  .actions-nav a,
+  .primary-nav a {
+    padding: 0 20px;
+  }
+  .primary-nav li > li {
+    font-weight: normal;
+  }
+  .primary-nav .submenu {
+    position: static;
+  }
+  .nav-container {
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+  }
+  .nav-container.bordered {
+    border-color: var(--nav-border);
+    background-color: var(--nav-background);
+  }
+
+  #primaryContainer {
+    border: none;
+  }
+  
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  .page-nav {
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: calc(100% - 422px);
+  }
+  .actions-nav {
+    justify-content: flex-end;
+  }
+
+  .primary-nav {
+    justify-content: flex-end;
+  }
+
+  .page-nav .fa-bars {
+    display: none;
+  }
+  .actions-nav,
+  .primary-nav {
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+  }
+  .primary-nav {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .page-nav i[class*="angle"],
+  .page-nav i[class*="times"] {
+    display: none;
+  }
+  .primary-nav > li {
+    text-indent: 0;
+    margin-left: 40px;
+  }
+  .primary-nav .dropdown {
+    margin-left: -234px;
+
+    width: 300px;
+  }
+  .primary-nav .closed::after,
+  .primary-nav .open::after {
+    display: none;
+  }
+
+  li:hover .dropdown,
+  li .dropdown:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  li:nth-of-type(5n) .dropdown {
+    right: 1px;
+  }
+}
+
+/* All formats */
+.visible {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ====== Page footer ====== */
+.page-footer {
+  background-color: var(--footer-background);
+  background-image: url(../img/translucent_waves.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.page-footer,
+.page-footer a,
+.page-footer a:hover,
+.page-footer a:visited,
+.page-footer a:active {
+  color: var(--text-black);
+}
+.page-footer a:hover,
+.page-footer a:active {
+  text-decoration: underline;
+}
+.page-footer li {
+  list-style: none;
+}
+
+.page-footer address {
+  font-size: 14pt;
+}
+
+.page-footer .flex {
+  display: flex;
+  justify-content: flex-start;
+}
+.page-footer ul {
+  padding: 0;
+  margin: 5px 0;
+}
+.page-footer p {
+  font-size: 11pt;
+}
+.page-footer li:first-of-type {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.site-nav a {
+  border-right: 1px solid var(--text-black);
+  font-size: 12pt;
+  line-height: 1rem;
+  padding: 0 10px;
+}
+.site-nav li:first-of-type a {
+  padding-left: 0;
+}
+.site-nav li:last-of-type a {
+  border-right-width: 0;
+}
+
+/* Font Awesome icons */
+.page-footer .fab,
+.page-footer .fas {
+  color: var(--text-white);
+  display: block;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+.page-footer .icon-background {
+  color: var(--text-black);
+}
+/* Mobile only */
+@media screen and (max-width: 376px) {
+.page-footer-info {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: right;
+ }
+ .site-nav {
+   flex-wrap: nowrap;
+   justify-content: left;
+ }
+ .page-footer .site-nav a {
+   font-size: 11pt;
+ }
+}
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+  .page-footer-info {
+    text-align: right;
+    white-space: nowrap;
+    width: 60%;
+  }
+}
+
+
+/* ====== Home page =====*/
+
+
+.home {
+  border-width: 10px 10px 0 10px;
+  border-style:  solid;
+  border-color: var(--home-main-border);
+}
+
+.title-box {
+  background-color: var(--branch-background);
+  margin: 0;
+  padding: 10px 15px 10px 15px;
+  /* border-bottom: 10px solid var(--home-main-border); */
+		}
+	.title-box h1 {
+	color: var(--text-yellow);
+  	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	text-transform: uppercase;
+  	line-height: .9;
+	font-size: 60px;
+	font-weight: bold;
+		}
+
+
+/* Desktop and tablet */
+@media only screen and (min-width: 1024px) {
+  .home {
+    box-sizing: border-box;
+  }
+  
+}
+
+
+.content-box {
+  background-color: var(--banner-background);
+  color: var(--text-black);
+  padding: 15px 30px 20px 30px;
+  border-bottom-width: 10px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  border-color: var(--home-main-border);
+	font-size: 14pt;
+	
+}
+.content-box a {
+  color: var(--text-blue);
+}
+
+.content-box h2 {
+	padding: 0 0 20px 0;
+	font-size: 20pt;
+	font-weight: bold;
+	
+}
+
+
+ .button-holder{
+  width: 100%;
+  height: 42px;
+  position:relative;
+	 margin: 20px 0 0 0;
+  }
+
+a.button {
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  line-height: 1.15rem;
+  padding: 0.25rem;
+  width: max-content;
+  margin: 0 10px 0 0;
+  float: left; 
+  font-size: 18pt;
+  font-weight: bold;
+}
+a.button:hover {
+  text-decoration: underline;
+}	
+
+
+
+/* ====== Events page =====*/
+.heading {
+  background-color: var(--branch-background);
+  color: var(--text-orange);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-size: 72pt;
+  font-weight: 900;
+  line-height: 1em;
+  margin: 0;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+.events-listing {
+  background-color: var(--card-background);
+  border-width: 10px;
+  border-style: solid;
+  border-color: var(--home-main-border);
+  padding: 0;
+}
+.events-listing .branch {
+  border-color: var(--events-border);
+  display: block;
+}
+.events-listing .branch h1 {
+  font-size: 30pt;
+}
+.events-listing .branch h2 {
+  font-size: 18pt;
+}
+
+.events-listing .branch p {
+  font-size: 18pt;
+  font-weight: normal;
+}
+.events-listing .branch p:last-of-type {
+  font-weight: bold;
+}
+.events-listing .img-holder {
+  /* background-size: cover; */
+  background-size: 100% 285px;
+  height: auto;
+  min-height: 235px;
+}
+.events-listing .img-holder-inner {
+  padding-top: 0;
+}
+.events-listing .info {
+  margin: 15px;
+  text-align: left;
+  width: calc(100% - 30px);
+}
+.events-listing .sidebar {
+  margin: 0 15px;
+}
+/* === Sections in sidebar === */
+.events-listing .sidebar section {
+  border: 1px solid var(--events-calendar-border);
+  margin: 15px 0;
+  padding: 10px;
+}
+.events-listing .sidebar header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--header-background);
+}
+
+.sidebar .button,
+.sidebar .button:visited,
+.sidebar .button:active,
+.sidebar .button:hover {
+  color: var(--text-black);
+}
+
+/* ====== Calendar in sidebar. 
+cf. https://css-tricks.com/how-to-make-a-monthly-calendar-with-real-data/ ====== */
+.events-listing .calendar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.calendar-month {
+  background-color: var(--card-background);
+  border: solid 1px var(--events-calendar-border);
+}
+
+.day-of-week {
+  color: var(--text-black);
+  background-color: var(--card-background);
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.day-of-week,
+.days-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.days-grid {
+  height: 100%;
+  position: relative;
+  grid-column-gap: 0;
+  grid-row-gap: 5px;
+}
+.days-grid li {
+  background-color: var(--card-background);
+  color: var(--text-black);
+  padding: 5px;
+}
+.days-grid .active,
+.days-grid a {
+  background-color: var(--calendar-highlight-background);
+  color: var(--text-white);
+}
+.calendar-day {
+  position: relative;
+  min-height: 20px;
+  background-color: var(--card-background);
+  color: var(--text-black);
+  padding: 5px;
+  text-align: center;
+}
+/* === Events search form === */
+.calendar-search .input-container {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1em;
+}
+.calendar-search .input-container button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.input-container input {
+  border: none;
+  outline: 0;
+}
+.calendar-search .input-container {
+  margin-bottom: 0;
+}
+.input-container input::placeholder {
+  color: var(--text-black);
+  opacity: 1;
+}
+.input-container input:focus::placeholder {
+  color: transparent;
+}
+.input-container label::after {
+  content: "";
+}
+/* === Event types filter === */
+.event-types form div {
+  display: flex;
+  align-items: center;
+}
+.events-listing input[type="checkbox"] {
+  border: 1px solid var(--events-checkbox-border);
+  height: 1em;
+  margin-right: 10px;
+  opacity: 1;
+  outline: none;
+  width: 1em;
+}
+
+/* == remove browser styling on checkboxes == */
+ @supports (-webkit-appearance: none) or (-moz-appearance: none) {
+  .events-listing input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+ }
+ .events-listing input[type="checkbox"]:checked {
+  background: var(--calendar-highlight-background);
+}
+}
+/* == Main content area == */
+.events-main {
+  margin: 15px 15px 15px 0;
+}
+/* == Mobile views == */
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 17vw;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .events-listing .branch {
+    width: 100%;
+  }
+}
+/* == Tablet and laptop view == */
+@media screen and (min-width: 1024px) {
+  .events-listing .branch {
+    border-width: 0;
+  }
+  .events-listing .img-holder {
+    width: 100%;
+  }
+  .events-listing .info {
+    flex: none;
+    margin: 10px;
+    width: calc(100% - 20px);
+  }
+  .events-listing .img-holder-inner {
+    padding-top: 0;
+  }
+  .events-main {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:15px;
+  }
+  .events-listing .sidebar .calendar {
+    margin-top: 0;
+  }
+  .events-listing .sidebar .inner {
+    float: left;
+    margin-right: 15px;
+    width: 27%;
+  }
+  .events-listing .sidebar .card {
+    margin-left: calc(27% + 15px);
+  }
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+   @media print {
+    *,
+    *::before,
+    *::after {
+      background: #fff !important;
+      color: #000 !important;
+      /* Black prints faster */
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+  
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  
+    a[href]::after {
+      content: " (" attr(href) ")";
+    }
+  
+    abbr[title]::after {
+      content: " (" attr(title) ")";
+    }
+  
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+      content: "";
+    }
+  
+    pre {
+      white-space: pre-wrap !important;
+    }
+  
+    pre,
+    blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+    }
+  
+    /*
+     * Printing Tables:
+     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+    thead {
+      display: table-header-group;
+    }
+  
+    tr,
+    img {
+      page-break-inside: avoid;
+    }
+  
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  
+    h2,
+    h3 {
+      page-break-after: avoid;
+    }
+  }
+  
+/*# sourceMappingURL=all.css.map */
+
+
+
